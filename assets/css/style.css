@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    color: balck;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: blueviolet;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+}
+/* navigation links */
+
+#menu{
+    font-size: 110%;
+    letter-spacing: 3px;
+}
+
+#menu, #logo {
+    line-height: 100px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 20px;
+    list-style-type: none;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+#menu a:hover {
+    border-bottom: 2px solid orangered;
+}
+.active {
+    border-bottom: 2px solid orangered;
+}
+
+/* stasi image */
+
+#stasi-outer 
+{
+height: 600px;
+ width: 100%;
+ overflow: hidden;
+}
+#stasi-image
+{
+    height: 600;
+    width: 100;
+    background: url('..//images/stasi-image.webp') no-repeat center center;
+}
+
+    
