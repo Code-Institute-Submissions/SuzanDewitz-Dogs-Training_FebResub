@@ -150,7 +150,7 @@ margin-bottom: 50px;
 .right-about-heading
 {
 width: 80%;
-float: left;
+float: right;
 line-height: 20px;
 clear: both;
 margin-bottom: 50px;
@@ -160,9 +160,19 @@ margin-bottom: 50px;
 .right-about-heading h2 {
     text-align: right;
     float: left;
+    line-height: 20px;
+}
 
 .right-about-heading p {
-    text-align: right;
+    text-align: left;
+    
+}
+
+
+
+
+
+
 
     #home {
         text-align: center;
