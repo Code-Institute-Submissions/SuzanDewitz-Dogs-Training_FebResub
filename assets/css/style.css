@@ -140,17 +140,33 @@ hr {
 }
 .left-about-heading
 {
-width: 60%;
+width: 80%;
 float: right;
 line-height: 20px;
 clear: both;
 margin-bottom: 50px;
 }
+
 .right-about-heading
 {
-width: 60%;
+width: 80%;
 float: left;
 line-height: 20px;
 clear: both;
 margin-bottom: 50px;
 }
+
+
+.right-about-heading h2 {
+    text-align: right;
+    float: left;
+
+.right-about-heading p {
+    text-align: right;
+
+    #home {
+        text-align: center;
+        margin: 20px 0;
+        font-size: 280%;
+        margin: 200%;
+ }
