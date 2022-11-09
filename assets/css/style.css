@@ -115,9 +115,9 @@ height: 800px;
     position: absolute;
     }
     
-//* Dogs Training*/
+//* dogs Training*/
 
-#Dogs-Training {
+#dogs-Training {
     height: 600px;
     bottom: 50px;
 }
@@ -127,7 +127,7 @@ height: 800px;
     width: 33%;
     float: left;
     bottom: 50px;
-    background-color: blue;
+   
 }
 
  #right-right {
@@ -138,3 +138,20 @@ height: 800px;
     background-color: silver;
 }
 
+hr 
+{
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+
+}
+
+
+.left-left-heading
+{
+    width: 70%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
