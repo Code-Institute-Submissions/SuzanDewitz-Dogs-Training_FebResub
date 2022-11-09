@@ -113,11 +113,28 @@ height: 800px;
     right: 50px;
 
     position: absolute;
+    }
     
+//* Dogs Training*/
+
+#Dogs-Training {
+    height: 600px;
+    bottom: 50px;
 }
-    
 
+#left-left {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    bottom: 50px;
+    background-color: blue;
+}
 
- 
-
+ #right-right {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    bottom: 50px;
+    background-color: silver;
+}
 
