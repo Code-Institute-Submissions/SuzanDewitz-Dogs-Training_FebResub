@@ -203,6 +203,7 @@ text-align: center;
     margin: 20px;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
     
 }
 
@@ -214,4 +215,7 @@ text-align: center;
     margin: 20px;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
+   
+   
 }
