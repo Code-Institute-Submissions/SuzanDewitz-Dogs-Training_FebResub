@@ -154,7 +154,7 @@ hr
     line-height: 20px;
     clear: both;
     margin-bottom: 20px;
-    color: navajowhite;
+    color: yellow;
    
 }
 .right-right-heading
@@ -164,7 +164,7 @@ hr
     line-height: 20px;
     clear: both;
     margin-bottom: 20px;
-    color: navajowhite;
+    color: red;
 }
 
 .right-right-heading h2
@@ -296,5 +296,16 @@ text-align: center;
     
     hr {
         display: none;
+    }
+}
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 }
