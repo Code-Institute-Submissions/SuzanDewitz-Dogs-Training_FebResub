@@ -230,3 +230,22 @@ text-align: center;
    
     
 }
+/* footer */
+footer {
+    height: 150px;
+
+}
+    text-align: center;
+
+.media-social {
+    text-align: center;
+}
+.media-social > li {
+    display: inline;
+}
+.media-social > li {
+    font-size: 300%;
+    padding: 10%;
+    margin: 1%;
+    color: blue;
+}
