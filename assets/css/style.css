@@ -176,7 +176,8 @@ text-align: center;
 }
 .right-right-heading p
 {
-   text-align: #fff;
+   text-align: broun;
+   background-color: rgba(0,0,0 .10);
    
 }
 
@@ -192,7 +193,8 @@ text-align: center;
 
 .left-left-heading p
 {
-   text-align: #fff;
+   text-align: broun;
+   background-color: rgba(0,0,0 .10);
    
    
 }
@@ -218,4 +220,13 @@ text-align: center;
     overflow: hidden;
    
    
+}
+#open
+{
+    color: green;
+    float: inline-start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: 5px;
+   
+    
 }
