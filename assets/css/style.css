@@ -115,9 +115,9 @@ height: 800px;
     position: absolute;
     }
     
-//* dogs Training*/
+/* dogs Training */
 
-#dogs-Training {
+#dogs-training {
     height: 600px;
     bottom: 50px;
 }
@@ -135,7 +135,7 @@ height: 800px;
     width: 33%;
     float: right;
     bottom: 50px;
-    background-color: silver;
+    
 }
 
 hr 
@@ -154,4 +154,39 @@ hr
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+}
+.right-right-heading
+{
+    width: 70%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-right-heading h2
+{
+
+text-align: center;
+text-decoration: underline;
+
+}
+.right-right-heading p
+{
+   text-align: inherit;
+   
+}
+
+.left-left-heading h2
+{
+
+text-align: center;
+text-decoration: underline;
+
+}
+
+.left-left-heading p
+{
+   text-align: inherit;
+   
 }
