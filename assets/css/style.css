@@ -9,7 +9,7 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 400;
-    color: balck;
+    color: #3a3a3a;
 }
 
 /* headings and logo */
@@ -38,13 +38,14 @@ h1, h2 {
 /* navigation links */
 
 #menu{
-    font-size: 110%;
+    font-size: 120%;
     letter-spacing: 3px;
 }
 
 #menu, #logo {
     line-height: 100px;
     color: rgb(0,0,128);
+    t
 }
 
 #menu li {
@@ -55,6 +56,13 @@ h1, h2 {
 #menu a {
     text-decoration: none;
     color: inherit;
+}
+#menu a:hover {
+    border-bottom: 1px solid rgb(128,0,0);
+}
+
+.active {
+    border-bottom: 1px solid rgb(128,0,0);
 }
 
 
@@ -154,7 +162,7 @@ hr
     line-height: 20px;
     clear: both;
     margin-bottom: 20px;
-    color: yellow;
+    color: rgb(250,250, 0);
    
 }
 .right-right-heading
@@ -164,7 +172,7 @@ hr
     line-height: 20px;
     clear: both;
     margin-bottom: 20px;
-    color: red;
+    color: rgb(250,250, 0);
 }
 
 .right-right-heading h2
@@ -271,21 +279,14 @@ footer {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
-      
-
-        
-     
-    }
+       }
     #training
     {
         padding: 50px 0;
         margin: 0;
         
-        
- }
-
-
-    #left-left-heading, #righ-right-heading
+        }
+ #left-left-heading, #righ-right-heading
     {
 width:100%;
 float: left;
@@ -303,8 +304,21 @@ text-align: center;
 
     #menu {
         clear: left;
-        float: left;
+        
+        float: right;
         margin-left: 30px;
         margin-bottom: 20px;
-        line-height: 25px;
+        line-height: 50px;
+        right: 0;
     } 
+    #cover-text {
+        right: 0;
+        margin-bottom: 200px;
+}
+    #dogs training
+    {
+        width: 90%;
+        height: 1400px;
+        margin: 0 auto;
+    }
+    
