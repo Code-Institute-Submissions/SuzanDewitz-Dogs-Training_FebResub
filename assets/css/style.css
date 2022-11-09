@@ -232,7 +232,7 @@ text-align: center;
 }
 #open
 {
-    color: green;
+    color: rgb(128, 0, 75);
     float: inline-start;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: 5px;
