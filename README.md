@@ -7,4 +7,7 @@
 [why we love dogs](https://suzandewitz.github.io/Dogs-Training/)
 
 
+Text about dogs from google     "Gene Hill"
+
+
 
