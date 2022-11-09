@@ -153,6 +153,7 @@ hr
     line-height: 20px;
     clear: both;
     margin-bottom: 20px;
+    color: navajowhite;
    
 }
 .right-right-heading
@@ -162,6 +163,7 @@ hr
     line-height: 20px;
     clear: both;
     margin-bottom: 20px;
+    color: navajowhite;
 }
 
 .right-right-heading h2
@@ -170,10 +172,11 @@ hr
 text-align: center;
 
 
+
 }
 .right-right-heading p
 {
-   text-align: inherit;
+   text-align: #fff;
    
 }
 
@@ -184,26 +187,31 @@ text-align: center;
 text-align: center;
 
 
+
 }
 
 .left-left-heading p
 {
-   text-align: inherit;
+   text-align: #fff;
+   
    
 }
 #left-left {
     background: url('../images/stasi-image.webp') no-repeat center center;
     
-    padding: 500px 100px;
-    margin: 50px;
+    padding: 100px 100px;
+    margin: 20px;
     background-size: cover;
+    background-position: center;
+    
 }
 
 
 #right-right {
     background: url('../images/stasi-image.webp') no-repeat center center;
     
-    padding: 500px 100px;
-    margin: 50px;
+    padding: 100px 100px;
+    margin: 20px;
     background-size: cover;
+    background-position: center;
 }
