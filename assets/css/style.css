@@ -269,12 +269,12 @@ footer {
 {
    width: 150%; 
 }
-.form-section {
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-    clear: left;
-}
+
+/* contact form */
+
+
+
+
 .contact-form
 {
     margin: 200px 0% 0 0;
@@ -285,11 +285,13 @@ footer {
     left: 10%;
     padding: 30px;
     clear: left;
+    display: block;
+
 }
 
 .contact-form > h2 {
-    color: #fafafa;
-    margin-bottom: 50px;
+    color: green;
+    margin-bottom: 15px;
 }
 
 .contact-form  {
@@ -297,12 +299,15 @@ footer {
     border-radius: 100px;
     padding: 15px 32px;
     text-align: center;
-    font-size: 120%;
+    font-size: 150%;
     background-color:  rgb(23, 88, 116);
-    color: #fafafa;
-    display: block;
+   
+    
 }
-.contact-form :hover {
+
+
+
+.contact-form section:hover {
     background-color: #fafafa;
     color: #0000;
 }
@@ -310,14 +315,7 @@ footer {
     border-color: #ff00ff;
 
 }
-.contact-form .media-social 
-{
-margin-top: 200px;
-}
-.media-social
-{
-    color: red;
-}
+
 
 
 
