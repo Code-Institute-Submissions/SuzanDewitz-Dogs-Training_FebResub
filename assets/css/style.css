@@ -195,9 +195,6 @@ text-align: center;
 {
 
 text-align: center;
-
-
-
 }
 
 .left-left-heading p
@@ -241,10 +238,11 @@ text-align: center;
 }
 /* footer */
 footer {
-    height: 150px;
+    height: 120px;
+    text-align: center;
 
 }
-    text-align: center;
+    
 
 .media-social {
     text-align: center;
@@ -256,7 +254,7 @@ footer {
     font-size: 200%;
     padding: 10%;
     margin: 1%;
-    color: blue;
+    color: rgb(0,0,128);
 }
 
 /* photos */
@@ -265,6 +263,7 @@ footer {
     clear: both;
     line-height: 2;
     column-count: 3;
+    
 }
 #photos > img 
 {
@@ -298,6 +297,7 @@ text-align: center;
     hr {
         display: none;
     }
+    
 }
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
@@ -338,11 +338,16 @@ text-align: center;
         padding: 0 20px; 
 }
 
+
+}
 /* For small screen sizes below 800px width */
 @media screen and (max-width: 800px) {
 
    #phots {
-    column-count: 2;
+    column-count: 30;
+    padding: 0 20px;
    }
+
+   
 
 }
