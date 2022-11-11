@@ -245,7 +245,7 @@ text-align: center;
 }
 
 p {
-    color: darkgreen;
+    color: black;
    font-size:20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
  
@@ -281,12 +281,14 @@ footer {
 .social-networks li{
     display: inline;
 }
-.social-networks li{
-    font-size: 20%;
-    padding: 10%;
-    margin: 10%;
-    margin: 5%;
-    color: rgb(0,0,128);
+
+.social-networks i{
+    font-size: 160%;
+    margin: 2%;
+    padding: 5%;
+    color: blue;
+}
+.social-networks-social {
     display: inline;
 }
 
