@@ -243,24 +243,41 @@ text-align: center;
    
     
 }
+
+.social-networks{
+    text-align: center;
+
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 2%;
+    padding: 5%;
+    color: blue;
+}
+
 /* footer */
 footer {
-    height: 120px;
+    height: 150px;
     text-align: center;
 
 }
     
 
-.media-social {
+.social-networks {
     text-align: center;
 }
-.media-social > li {
+.social-networks li{
     display: inline;
 }
-.media-social > li {
-    font-size: 200%;
+.social-networks li{
+    font-size: 150%;
     padding: 10%;
-    margin: 1%;
+    margin: 5%;
     color: rgb(0,0,128);
 }
 
@@ -280,62 +297,48 @@ footer {
 /* contact form */
 
 .contact-form {
-  
-    margin: 80px 10% 0 0;
-    background-color: rgba(255, 81, 0, 0.9);
-    max-width: 400px;
-    
-    padding: 4rem;
-    color: white;
-    border-radius: 2rem;
-    border: .20rem solid rgb(0, 61, 165);
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: maroon;
+    max-width: 600px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
 }
 
-
-.contact-form h2 {
-    text-align: center;
-    color: white;
-    margin: auto;
-    font-size: 2rem;
+.contact-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
 }
-.form-input {
+.text-input {
+    background: transparent;
+    color: #fafafa;
     width: 100%;
-    height: 2rem;
-    font-size: 1.2rem;
-    font-weight: 400;
-    margin: 1rem;
-    border-radius: .25rem;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
 }
-.contact-form>label {
-    font-size: 1.1rem;
-    font-weight: 500;
-    padding: 1rem;
+
+.text-input:hover {
+    border-color: #f16c6b;
 }
-.contact-form>textarea {
-    height: 5rem;
-}
-.send-message-button {
-    margin: 1rem;
-    border-radius: .25rem;
-    padding: 1rem;
-    width: 50%;
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
     text-align: center;
-    font-size: 1.2rem;
-    font-weight: 600;
-    background-color: rgb(0, 61, 165);
-    border: .2rem solid white;
-    color: white;
-    cursor: pointer;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
 }
+.join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
 
-.contact-form>p {
-    font-weight: 600px;
-    margin: 1rem;
+
 }
-
-
-
-
 
 /* Media queries */
 
@@ -366,6 +369,7 @@ text-align: center;
     }
     
 }
+
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
