@@ -73,15 +73,24 @@ h1, h2 {
 {
 height: 800px;
  width: 100%;
- overflow: hidden;
+ overflow: hidden
+ padding-top: 0%;
+ 
+ position: relative;
+}
+#cover-text, #cover-text h3
+{
 
-}
-#cover-text, #cover-text h3 {
-    color: rgb(0,0,128);
-    height: 50px;
-    width: 400px;
     
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+   
+    
+   
 }
+
 
 #dogs-image
 {
@@ -96,6 +105,7 @@ height: 800px;
     animation-name: dogs-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    text-decoration: none;
 }
 /* creates the level of zoom for dogs image */
 @keyframes dogs-zoom {
@@ -189,7 +199,7 @@ text-align: center;
    background-color: rgba(0,0,0 .10);
    
 }
-
+/* right side text */
 
 .left-left-heading h2
 {
@@ -214,7 +224,7 @@ text-align: center;
     overflow: hidden;
     
 }
-
+/* right side text */
 
 #right-right {
     background: url('../images/stasi-image.webp') no-repeat center center;
