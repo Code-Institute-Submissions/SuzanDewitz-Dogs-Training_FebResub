@@ -285,12 +285,13 @@ footer {
 .social-networks i{
     font-size: 160%;
     margin: 2%;
-    padding: 5%;
+    padding: 8%;
     color: blue;
+    
 }
-.social-networks-social {
-    display: inline;
-}
+
+
+
 
 /* photos */
 #photos
@@ -340,13 +341,13 @@ footer {
     padding: 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: yellowgreen;
     color: #fafafa;
     display: block;
 }
 .join-button:hover {
     background-color: #fafafa;
-    color: #f16c6b;
+    color: maroon;
 
 
 }
@@ -368,15 +369,19 @@ footer {
         }
  #left-left-heading, #right-right-heading
     {
-width:100%;
-float: left;
-padding: 20px;
-clear: both;
-text-align: center;
+        width: 100%;
+        float: left;
+        padding: 0;
     }
     
     hr {
         display: none;
+    }
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
     }
     
 }
@@ -395,7 +400,7 @@ text-align: center;
     } 
     #cover-text {
         left: 0;
-        margin-bottom: 200px;
+        
 }
     #dogs training
     {
@@ -427,7 +432,7 @@ text-align: center;
 
    #phots {
     column-count: 30;
-    padding: 0 20px;
+   
    }
 
    
