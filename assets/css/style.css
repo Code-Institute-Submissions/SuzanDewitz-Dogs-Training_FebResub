@@ -242,12 +242,12 @@ text-align: center;
 p {
     color: rgb(0,0,0);
    font-size:20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
- 
+  font-family:lato serif;
+  text-align: left;
 }
 
 
-/* opening hours */
+/* opning section */
 #open h2 
  {
     color: rgb(128,0,0);
@@ -263,7 +263,6 @@ p {
     text-align: center;
     padding-top: 100px;
 }
-
 
 
 
@@ -287,6 +286,7 @@ p {
 footer {
     height: 150px;
     text-align: center;
+    
 
 }
     /* social networks  */
