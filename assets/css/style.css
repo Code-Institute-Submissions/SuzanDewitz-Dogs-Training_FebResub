@@ -378,7 +378,7 @@ padding-bottom: 20px;
     text-align: center;
     font-size: 100%;
     background-color: yellowgreen;
-    color: #fafafa;
+    color: black;
     display: block;
 }
 .join-button:hover {
@@ -388,11 +388,7 @@ padding-bottom: 20px;
 
 /* social-networks-networks */
 
-.social-networks-networks
-{
-    text-align: center;
-    position: sticky;
-}
+
 
 .social-networks{
     text-align: center;
