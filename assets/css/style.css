@@ -22,11 +22,7 @@ h1, h2 {
     margin-bottom: 0px;
     }
 
-    h1 {
-        background-color:
-        
-        }
-
+   
 #logo {
     float: left;
     font-size: 200%;
@@ -80,9 +76,7 @@ h1, h2 {
 }
 #cover-text, #cover-text h3
 {
-
-    
-    height: 600px;
+   height: 600px;
     width: 100%;
    }
 
