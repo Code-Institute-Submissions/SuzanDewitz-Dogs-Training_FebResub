@@ -234,22 +234,32 @@ text-align: center;
    
    
 }
-#open
-{
-    color: rgb(128, 0, 75);
-    float: inline-start;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: 5px;
-   
-    
-}
-
 p {
-    color: black;
+    color: rgb(0,0,0);
    font-size:20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
  
 }
+
+
+/* opening hours */
+#open h2 
+ {
+    color: rgb(128,0,0);
+    text-align: right;
+ }
+
+#open
+{
+    color: rgb(0,0,0);
+    float: inline-start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: 5px;
+    text-align: center;
+}
+
+
+
 
 .social-networks{
     text-align: center;
