@@ -253,7 +253,7 @@ p {
 #open h2 
  {
     color: rgb(128,0,0);
-    padding-top: 500px;
+    
     float: inline-start;
     }
 
@@ -262,9 +262,9 @@ p {
     color: rgb(0,0,0);
     float: inline-start;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: 10px;
+    text-align: 0px;
     text-align: center;
-    padding-top: 500px;
+    padding-top: 30px;
 
 }
 
@@ -301,10 +301,11 @@ p {
 text-align: right;
 padding-bottom: 20px;
 
+
 }
 
 
-/* event time  */
+/* flex-dog  */
 
 #times 
 
@@ -330,13 +331,14 @@ padding-bottom: 20px;
     
     
 }
-#flex-dog 
+#flex-dog p
 {
-
+    color: #fff;
 }
 
 #times h2 {
     color: #fafafa;
+    text-shadow: #008000;
 }
 
 
