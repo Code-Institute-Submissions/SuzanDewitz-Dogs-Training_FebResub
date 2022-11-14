@@ -133,16 +133,27 @@ h1, h2 {
     
 }
 
+#training 
+{
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+
+
 #left-left {
-    padding-top: 30px;
+    padding-top: 50px;
     width: 33%;
     float: left;
     bottom: 50px;
+    
+
    
 }
 
  #right-right {
-    padding-top: 30px;
+    padding-top: 50px;
     width: 33%;
     float: right;
     bottom: 50px;
@@ -250,6 +261,7 @@ p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: 5px;
     text-align: center;
+    padding-top: 100px;
 }
 
 
