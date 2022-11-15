@@ -476,13 +476,11 @@ footer {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
-        
        }
     #training
     {
         padding: 30px 0;
         margin: 0;
-        
         
         }
  #left-left-heading, #right-right-heading
@@ -490,7 +488,6 @@ footer {
         width: 100%;
         float: left;
         padding: 0;
-        letter-spacing: 1px;
     }
     
 #times div {
@@ -498,7 +495,6 @@ footer {
     clear: right;
     height: 350px;
     padding: 0;
-    letter-spacing: 1px;
 }
 
 #flex-dog
@@ -524,7 +520,6 @@ footer {
         text-align: center;
             padding: 0 20px; 
             width: 100%;
-            letter-spacing: 1px;
     }
 }
 
@@ -541,7 +536,6 @@ footer {
     } 
     #cover-text {
         left: 0;
-        letter-spacing: 1px;
         
 }
     #dogs training
@@ -568,9 +562,9 @@ footer {
 
 .left-left-heading p, .right-right-heading p {
     
-        padding: 0px; 
-        width: 200%;
-        text-align: left;
+        padding: 10px; 
+        width: 150%;
+        margin-right: 50%;
 }
 .healthier
 {
