@@ -468,7 +468,7 @@ footer {
 
 
 
-/* Media queries */
+/*---------------------------------------------------------------------- Media queries *--------------------------------------------------------------------------------------------------------/
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
@@ -490,6 +490,21 @@ footer {
         padding: 0;
     }
     
+#times div {
+    width: 350px;
+    clear: right;
+    height: 350px;
+    padding: 0;
+}
+
+#flex-dog
+{
+    width: 350px;
+    height: 350px;
+    padding: 0;
+}
+
+
     hr {
         display: none;
     }
@@ -551,14 +566,19 @@ footer {
         width: 150%;
         margin-right: 50%;
 }
-#healthier
+.healthier
 {
- width: 60%;
+    width: 60%;
     text-align: center;
     line-height: 300%;
 } 
 
+#photos {
+    column-count: 3;
 }
+}
+
+
 /* For small screen sizes below 800px width */
 @media screen and (max-width: 800px) {
 
