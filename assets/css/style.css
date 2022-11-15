@@ -398,7 +398,6 @@ hr
     color: #000000;
     display: block;
 }
-
 .join-button:hover {
     background-color: #fafafa;
     color: maroon;
@@ -495,14 +494,18 @@ footer {
         display: none;
     }
     
-    #Healthier {
+    #healthier {
         clear: both;
-        width: 100%;
+        width: 50%;
         float: left;
         padding: 0;
         
     }
-    
+    #left-left-heading p, #right-right-heading p {
+        text-align: center;
+            padding: 0 20px; 
+            width: 100%;
+    }
 }
 
 /* For medium screen sizes from 950px wide and down */
@@ -528,21 +531,32 @@ footer {
     }
     
 
-#left-left-heading, #righ-right-heading 
+.left-left-heading, .righ-right-heading 
 {
-    width: inherit;
+     width: 100%;
+    text-align: center;
+    line-height: 25px;
+    
+
 }
-#left-left-heading h2, #right-right-heading h2
+.left-left-heading h2, .right-right-heading h2
 {
     width: 100%;
     text-align: center;
 }
 
-#left-left-heading p, #right-right-heading p {
-    text-align: center;
-        padding: 0 20px; 
+.left-left-heading p, .right-right-heading p {
+    
+        padding: 10px; 
+        width: 150%;
+        margin-right: 50%;
 }
-
+#healthier
+{
+ width: 60%;
+    text-align: center;
+    line-height: 300%;
+} 
 
 }
 /* For small screen sizes below 800px width */
