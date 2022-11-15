@@ -398,6 +398,15 @@ hr
     color: #000000;
     display: block;
 }
+/* horizontal  role */
+
+.stasi-photo
+
+hr 
+{
+    width: 100%;
+    margin: 10px 0;
+}
 
 
 
