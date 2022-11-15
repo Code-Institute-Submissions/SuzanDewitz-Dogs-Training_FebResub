@@ -398,6 +398,12 @@ hr
     color: #000000;
     display: block;
 }
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: maroon;
+}
+
 /* horizontal  role */
 
 .stasi-photo
