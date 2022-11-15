@@ -509,13 +509,7 @@ footer {
         display: none;
     }
     
-    #healthier {
-        clear: both;
-        width: 50%;
-        float: left;
-        padding: 0;
-        
-    }
+   
     #left-left-heading p, #right-right-heading p {
         text-align: center;
             padding: 0 20px; 
@@ -533,9 +527,11 @@ footer {
         margin-bottom: 20px;
         line-height: 25px;
         right: 0;
+        letter-spacing: 2px;
     } 
     #cover-text {
         left: 0;
+        flex-wrap: wrap;
         
 }
     #dogs training
@@ -552,12 +548,14 @@ footer {
     text-align: center;
     line-height: 25px;
     
+    
 
 }
 .left-left-heading h2, .right-right-heading h2
 {
     width: 100%;
     text-align: center;
+    
 }
 
 .left-left-heading p, .right-right-heading p {
@@ -571,6 +569,7 @@ footer {
     width: 60%;
     text-align: center;
     line-height: 300%;
+   
 } 
 
 #photos {
