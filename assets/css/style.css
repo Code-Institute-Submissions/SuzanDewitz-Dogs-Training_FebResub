@@ -304,6 +304,12 @@ padding-bottom: 20px;
 
 }
 
+hr 
+{
+    width: 100%;
+    margin: 10px 0;
+}
+
 
 /* flex-dog  */
 
