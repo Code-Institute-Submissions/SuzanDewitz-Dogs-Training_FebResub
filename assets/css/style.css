@@ -316,14 +316,15 @@ hr
 #times 
 
 {     
-    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
     overflow: hidden;
+    margin: 25px 40px;
 }
 #times div {
+    background-image: url('..//images/flex\ dog\ image.jpg');
     color: black;
     background-color: grey;
     width: 30%;
@@ -333,19 +334,10 @@ hr
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
-    background-image: url('..//images/flex\ dog\ image.jpg');
     
     
-}
-#flex-dog p
-{
-    color: #fff;
 }
 
-#times h2 {
-    color: #fafafa;
-    text-shadow: #008000;
-}
 
 
 /* contact form */
