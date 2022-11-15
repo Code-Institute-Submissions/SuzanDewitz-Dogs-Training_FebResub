@@ -254,19 +254,19 @@ p {
  {
     color: rgb(128,0,0);
     
-    float: inline-start;
-    }
+ }
 
 #open
 {
     color: rgb(0,0,0);
     float: inline-start;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Lato, sans-serif;
     text-align: 0px;
     text-align: center;
     padding-top: 30px;
-
-}
+    position: relative;
+ 
+  }
 
 
 /* photos */
