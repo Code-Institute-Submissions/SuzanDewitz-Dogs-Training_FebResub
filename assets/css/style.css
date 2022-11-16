@@ -357,79 +357,88 @@ hr
 
 
 
-/* container  for contact us */
 
-.container
-{
-        padding: 25px;   
-        background-color:#00FFFF;  
-        margin-top: 100px;  
-        border-radius: 2px;
-        padding: 70px 70px;
-        width: 30%;
 
-    }   
-.container h2 {
-    color:#000000;
-    margin-bottom: 20px;
-    background: transparent;
-    width: 100%;
-    position: relative;
-    padding-right: 100%;
+/* CONTACT FORM STYLING */
+
+/* Contact form styling is shown below, this targets the form on the contact.html page */
+
+.contact-form {
+    margin: 5% auto;
+    background-color: rgba(33, 84, 151, 0.9);
+    max-width: 60%;
+    padding: 4rem;
+    color: white;
+    border-radius: 2rem;
+    border: .20rem solid rgb(22, 69, 100);
 }
 
+/* Targets the for header */
 
-    button {   
-        background-color: #4CAF50;   
-        width: 100%;  
-         color: orange;   
-         padding: 15px;   
-         border: none;   
-         cursor: pointer;   
-          }   
-  form {   
-         border: 3px solid #f1f1f1;   
-     }   
-
-  input[type=text], input[type=password] {   
-         width: 100%;   
-         height: 25px;
-         margin: 8px 0;  
-         padding: 12px 20px;   
-         display: inline-block;   
-         border: 2px solid green;   
-         box-sizing: border-box;   
-     }  
-
-.text-input:hover {
-    border-color: #f16c6b;
-}
-.join-button {
-    margin-top: 50px;
-    border-radius: 2px;
-    padding: 15px 32px;
+.contact-form h2 {
     text-align: center;
-    font-size: 100%;
-    background-color: yellowgreen;
-    color: #000000;
-    display: block;
-}
-.join-button:hover {
-    background-color: #fafafa;
-    color: maroon;
+    color: white;
+    margin-bottom: 3rem;
+    font-size: 2rem;
 }
 
-/* horizontal  role */
+/* Targets the inputs on the form */
 
-.stasi-photo
-
-hr 
-{
+.form-input {
     width: 100%;
-    margin: 10px 0;
+    height: 2rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 1rem;
+    border-radius: .25rem;
 }
 
+/* Targets the labels for the form inputs */
 
+.contact-form>label {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+/* Targets the textarea form input */
+
+.contact-form > textarea {
+    height: 18rem;
+}
+
+/* Targets the send message button */
+
+.send-message-button {
+    margin: 1rem;
+    border-radius: .25rem;
+    padding: 1rem;
+    width: 50%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: rgb(0, 61, 165);
+    border: .2rem solid white;
+    color: white;
+    cursor: pointer;
+}
+
+/* Targets the required field <p> text on contact form */
+
+.contact-form>p {
+    font-weight: 600;
+    margin: 1rem;
+}
+
+/* CONTENT STYLING (STAY, EAT AND GO PAGES) */
+
+/* Styling below targets the main content container within which the individual item 'content card' will sit */
+
+.content-container {
+    width: 60%;
+    margin: 5rem auto;
+    text-align: center;
+}
 
 /* social-networks-networks */
 
