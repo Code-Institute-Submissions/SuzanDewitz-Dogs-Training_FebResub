@@ -220,7 +220,7 @@ text-align: center;
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    padding-top: 50px;
+    
     
 }
 
@@ -231,7 +231,7 @@ text-align: center;
     line-height: 20px;
     clear: both;
     margin-bottom: 20px;
-    color: black;
+    color: black;   
 }
 
 .right-right-heading h2
@@ -245,17 +245,6 @@ text-align: center;
    background-color: rgba(0,0,0 .10);
    
 }
-
-.right-right-heading
-{
-    width: 90%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 20px;
-    color: black;
-}
-
 
 p {
     color: rgb(0,0,0);
