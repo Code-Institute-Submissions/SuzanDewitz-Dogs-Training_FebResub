@@ -351,10 +351,35 @@ hr
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
+    }
+
+    /* --------------------------------------------------------------STASI PHOTO FOR PHOTO PAGE STYLING-----------------------------------------------------------*/
+
+    /* stasi-photo */
+
+#stasi-photo 
+{
+    background-color: rgb(13, 234, 234);
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding-inline-start: 5%;
+    white-space: nowrap;
+    text-shadow: 2px 2px 5px red;
+    margin: 0;
+}
+#stasi-photo  img 
+{
+    padding:20px; 
+    height: 50rem;
+    padding-inline-start: 15%;
+}
+#stasi-photo p
+{
+    text-shadow: 2px 2px 4px #000000;
+    margin: 0;
     
     
 }
-
 
 
 
