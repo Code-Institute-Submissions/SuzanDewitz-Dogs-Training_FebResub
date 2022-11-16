@@ -266,7 +266,7 @@ p {
 }
 
 
-/* opning section */
+/* opening section */
 #open h2 
  {
     color: rgb(128,0,0);
@@ -378,13 +378,8 @@ hr
     text-shadow: 2px 2px 4px #000000;
     margin: 0;
     
-    
 }
-
-
-
-
-/* CONTACT FORM STYLING */
+/*---------------------------------------------------------------- CONTACT FORM STYLING--------------------------------------------------------------- */
 
 /* Contact form styling is shown below, this targets the form on the contact.html page */
 
@@ -450,7 +445,7 @@ hr
 
 
 
-
+/*-----------------------------------------------------------------------social networks networks-------------------------------------------------------------*/
 /* social-networks-networks */
 
 
@@ -475,35 +470,8 @@ hr
 footer {
     height: 150px;
     text-align: center;
-    position: sticky;
-    height:  100vh;
-    
-
 }
-    /* social networks  */
-
-.social-networks {
-    text-align: center;
-}
-.social-networks li{
-    display: inline;
-}
-
-.social-networks i{
-    font-size: 160%;
-    margin: 2%;
-    padding: 8%;
-    color: blue;
-    
-}
-
-
-
-
-
-
-
-
+ 
 /*---------------------------------------------------------------------- Media queries *--------------------------------------------------------------------------------------------------------/
 
 /* For larger to medium screens size from 1200px wide and down */
