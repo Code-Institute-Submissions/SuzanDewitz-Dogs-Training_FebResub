@@ -391,6 +391,7 @@ hr
     border-radius: 2rem;
     border: .20rem solid rgb(22, 69, 100);
     margin-left: 10%;
+    
 }
 
 /* Targets the for header */
@@ -400,6 +401,7 @@ hr
     color: white;
     margin-bottom: 2rem;
     font-size: 1rem;
+    
 }
 
 /* Targets the inputs on the form */
@@ -411,6 +413,7 @@ hr
     font-weight: 400;
     margin: 1rem;
     border-radius: .25rem;
+    
 }
 
 /* Targets the labels for the form inputs */
@@ -441,8 +444,21 @@ hr
     color: white;
     cursor: pointer;
 }
+/*--------------------------------------------------dogs body---------------------------------------------------------------*/
+/*dogs body*/
 
+#dog-body {
+    
+    text-align: center;
+}
 
+#photos {
+
+    background-color: aqua;
+    margin-left: auto;
+    padding: 2.5rem
+
+}
 
 /*-----------------------------------------------------------------------social networks networks-------------------------------------------------------------*/
 /* social-networks-networks */
