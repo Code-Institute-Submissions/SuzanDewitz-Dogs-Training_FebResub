@@ -1,40 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
 
+/* Remove default margin, padding and border for all elements to make positioning easier */
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+
+/*Font family for body element */
+
+
 body {
     font-family: Lato, sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     color: #3a3a3a;
-    min-height: 100vh;
+    
 }
+/* HEADER STYLING */
 
-/* headings and logo */
+/* Header styling with linear gradient and sticky position */
+
+/* headings */
+
+header {
+    height: 4rem;
+    position: sticky;
+    }
+
+/* HEADINGS AND LOGO STYLING */
+
 
 h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: rgb(0,0,128);
-    margin-bottom: 0px;
+    
     }
 
-   
+  /* Set logo Float value to ensure is stays to the left of the screen and increase logo size */
+
 #logo {
     float: left;
-    font-size: 200%;
-    margin-left: 50px;
-    
-
-   
+    font-size: 2.5rem;
+    margin: .5rem 2rem;
 }
 /* navigation links */
 
-#menu{
+#menu {
+    display: block;
     font-size: 120%;
     letter-spacing: 3px;
 }
