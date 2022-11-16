@@ -25,7 +25,7 @@ body {
 /* headings */
 
 header {
-    height: 4rem;
+    height: 2rem;
     position: sticky;
     }
 
@@ -157,7 +157,9 @@ h1, h2 {
 }
 
 
+/*--------------------------------------------------------------left side left-----------------------------------------------------------------*/
 
+/* left side text */
 
 #left-left {
     padding-top: 50px;
@@ -165,27 +167,12 @@ h1, h2 {
     float: left;
     bottom: 50px;
     background-color: #008000;
-    
-
-   
+    padding: 100px 100px;
+    margin: 20px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
 }
-
- #right-right {
-    padding-top: 50px;
-    width: 33%;
-    float: right;
-    bottom: 50px;
-    background-color: #008000;
-    
-}
-
-hr 
-{
-    width: 100%;
-    margin: 10px 0;
-}
-
-
 .left-left-heading
 {
     width: 90%;
@@ -194,8 +181,49 @@ hr
     clear: both;
     margin-bottom: 20px;
     color: black;
+}
+
+
+
+.left-left-heading h2
+{
+
+text-align: center;
+}
+
+.left-left-heading p
+{
+   text-align: broun;
+   background-color: rgba(0,0,0 .10);
    
 }
+
+   hr 
+{
+    width: 100%;
+    margin: 10px 0;
+}
+
+/*---------------------------------------------------right side right--------------------------------------------------------------------*/
+
+/* right side text */
+
+
+#right-right {
+    padding-top: 50px;
+    width: 33%;
+    float: right;
+    bottom: 50px;
+    background-color: #008000;
+    padding: 100px 100px;
+    margin: 20px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    padding-top: 50px;
+    
+}
+
 .right-right-heading
 {
     width: 90%;
@@ -210,9 +238,6 @@ hr
 {
 
 text-align: center;
-
-
-
 }
 .right-right-heading p
 {
@@ -220,44 +245,18 @@ text-align: center;
    background-color: rgba(0,0,0 .10);
    
 }
-/* right side text */
 
-.left-left-heading h2
+.right-right-heading
 {
-
-text-align: center;
+    width: 90%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 20px;
+    color: black;
 }
 
-.left-left-heading p
-{
-   text-align: broun;
-   background-color: rgba(0,0,0 .10);
-   
-   
-}
-#left-left {
-   
-    
-    padding: 100px 100px;
-    margin: 20px;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    
-}
-/* right side text */
 
-#right-right {
-    
-    
-    padding: 100px 100px;
-    margin: 20px;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-   
-   
-}
 p {
     color: rgb(0,0,0);
    font-size:20px;
