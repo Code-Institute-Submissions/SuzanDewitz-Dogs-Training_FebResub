@@ -366,11 +366,12 @@ hr
 .contact-form {
     margin: 5% auto;
     background-color: rgba(33, 84, 151, 0.9);
-    max-width: 60%;
-    padding: 4rem;
+    max-width: 30%;
+    padding: 3rem;
     color: white;
     border-radius: 2rem;
     border: .20rem solid rgb(22, 69, 100);
+    margin-left: 10%;
 }
 
 /* Targets the for header */
@@ -378,8 +379,8 @@ hr
 .contact-form h2 {
     text-align: center;
     color: white;
-    margin-bottom: 3rem;
-    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
 }
 
 /* Targets the inputs on the form */
@@ -395,16 +396,15 @@ hr
 
 /* Targets the labels for the form inputs */
 
-.contact-form>label {
+.contact-form > label {
     font-size: 1.2rem;
-    font-weight: 500;
     padding: 1rem;
 }
 
 /* Targets the textarea form input */
 
 .contact-form > textarea {
-    height: 18rem;
+    height: 10rem;
 }
 
 /* Targets the send message button */
@@ -423,22 +423,8 @@ hr
     cursor: pointer;
 }
 
-/* Targets the required field <p> text on contact form */
-
-.contact-form>p {
-    font-weight: 600;
-    margin: 1rem;
-}
 
 
-
-/* Styling below targets the main content container within which the individual item 'content card' will sit */
-
-.content-container {
-    width: 60%;
-    margin: 5rem auto;
-    text-align: center;
-}
 
 /* social-networks-networks */
 
