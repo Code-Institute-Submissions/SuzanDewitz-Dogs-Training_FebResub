@@ -515,7 +515,7 @@ footer {
         width: 350px;
         height: 350px;
        }
-}
+
 #dog-image {
     width: 300px;
     height: 600px;
@@ -535,8 +535,8 @@ footer {
 
 }
 #times {
-    width: 70px;
-    height: 0px;
+    width: 2000px;
+    height: 100px;
 }
 #cover-text {
     width: 250px;
@@ -547,5 +547,5 @@ footer {
     width: 300px;
     height: 400px;
 }
-
+}
 
