@@ -58,7 +58,6 @@ h1, h2 {
 #menu, #logo {
     line-height: 100px;
     color: rgb(0,0,128);
-    t
 }
 
 #menu li {
@@ -478,115 +477,75 @@ footer {
  
 /*---------------------------------------------------------------------- Media queries *--------------------------------------------------------------------------------------------------------/
 
-/* For larger to medium screens size from 1200px wide and down */
+
+/* For larger to medium screens size from  481px  wide and down */
 
 
-/* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-    #Dogs-training {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-        
-       }
-   
- #left-left-heading, #right-right-heading
-    {
-        width: 100%;
-        float: left;
-        padding: 0;
-        
-    }
-    
-#times div {
-    width: 350px;
-    height: 350px;
-   }
+/* For larger to medium screens size from  481px  wide and down */
+@media screen and (max-width:  481px) {
+    .left-left-heading {
+    width: 380px;
+    height: 144px;
+  }
 
-#flex-dog
-{
-    
-}
+  .right-right-heading {
+    width: 380px;
+    height: 144px;
 
-
-   
-    #left-left-heading p, #right-right-heading p {
-        text-align: center;
-           margin-left: 100%;
-            width: 100%;
-            letter-spacing: 1px;
-    }
-}
-
-/* For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
-
-    #menu {
-        
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-        right: 0;
-        
-    } 
-    #cover-text {
-        left: 0;
-        letter-spacing: 1px;
-        
-}
-    #dogs training
-    {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-    
-
-.left-left-heading, .righ-right-heading 
-{
-     max-width: 100%;
-    text-align: center;
-    line-height: 25px;
+  }
+  #left-left  {
+    width: 258px;
+    height: 50%;
+    letter-spacing: 1px;
     float: left;
-    
-
-}
-.left-left-heading h2, .right-right-heading h2
+  }
+#right-right
 {
-    width: 100%;
-    text-align: center;
-    font-size: 1rem;
-    
-    
+    width: 250px;
+    height: 500px;
+    float: left;
+   margin-bottom: 20%;
 }
-
-.left-left-heading p, .right-right-heading p {
-    
-        padding: 10px; 
-        width: 150%;
-        margin-right: 200%;
-}
-#healthier
+#dog-training
 {
-    width: 60%;
-    text-align: center;
-   
-    padding: 10px;
+    width: 480px;
+    height: 600px;
+}
+#times {
+        width: 350px;
+        height: 350px;
+       }
+}
+#dog-image {
+    width: 300px;
+    height: 600px;
+}
+#healthier {
+    width: 80px;
+    height: 0px;
+    letter-spacing: 0px;
+
+}
+
+#healthier p {
     
-   
-} 
+    width: 200px;
+    height: 100px;
+    margin-left: 10%;
 
-#photos {
-    column-count: 6rem;
 }
+#times {
+    width: 70px;
+    height: 0px;
+}
+#cover-text {
+    width: 250px;
+    height: 70px;
+}
+
+#flex-dog {
+    width: 300px;
+    height: 400px;
 }
 
 
-/* For small screen sizes below 800px width */
-@media screen and (max-width: 800px) {
-
-   #phots {
-    column-count: 30;
-   
-   }
