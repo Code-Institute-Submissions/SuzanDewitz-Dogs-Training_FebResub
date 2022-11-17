@@ -480,43 +480,113 @@ footer {
 
 /* For larger to medium screens size from 1200px wide and down */
 
-@media screen and (max-width: 1200px) { 
-    
- 
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
     #Dogs-training {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
         
        }
+   
+ #left-left-heading, #right-right-heading
+    {
+        width: 100%;
+        float: left;
+        padding: 0;
         
-       #healthier {
-        padding: 30px;
-        margin: 0;
-       }
-
-       #left-left-heading, #right-right-heading
-       {
-           width: 100%;
-           float: left;
-           padding: 0;
-           
-           
-       }
-
-       #flex-dog {
-      clear: both;
-      width: 50;
-      float: left;
-   row-gap: 10%;
-       }
-       hr {
-        display: none;
+    }
     
-       }
+#times div {
+    width: 350px;
+    height: 350px;
+   }
+
+#flex-dog
+{
+    
 }
+
+
+   
+    #left-left-heading p, #right-right-heading p {
+        text-align: center;
+           margin-left: 100%;
+            width: 100%;
+            letter-spacing: 1px;
+    }
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #menu {
+        
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        right: 0;
+        
+    } 
+    #cover-text {
+        left: 0;
+        letter-spacing: 1px;
+        
+}
+    #dogs training
+    {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    
+
+.left-left-heading, .righ-right-heading 
+{
+     max-width: 100%;
+    text-align: center;
+    line-height: 25px;
+    float: left;
+    
+
+}
+.left-left-heading h2, .right-right-heading h2
+{
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    
+    
+}
+
+.left-left-heading p, .right-right-heading p {
+    
+        padding: 10px; 
+        width: 150%;
+        margin-right: 200%;
+}
+#healthier
+{
+    width: 60%;
+    text-align: center;
+   
+    padding: 10px;
     
    
+} 
 
+#photos {
+    column-count: 6rem;
+}
+}
+
+
+/* For small screen sizes below 800px width */
+@media screen and (max-width: 800px) {
+
+   #phots {
+    column-count: 30;
    
-
+   }
