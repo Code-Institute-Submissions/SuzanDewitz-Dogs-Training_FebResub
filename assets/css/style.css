@@ -352,7 +352,7 @@ hr
     text-transform: capitalize;
     padding-inline-start: 5%;
     white-space: nowrap;
-    text-shadow: 2px 2px 5px red;
+    
     margin: 0;
 }
 #stasi-photo  img 
@@ -363,7 +363,6 @@ hr
 }
 #stasi-photo p
 {
-    text-shadow: 2px 2px 4px #000000;
     margin: 0;
     padding:20px; 
     
