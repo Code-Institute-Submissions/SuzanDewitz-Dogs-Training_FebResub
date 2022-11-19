@@ -478,79 +478,82 @@ footer {
 /*---------------------------------------------------------------------- Media queries *--------------------------------------------------------------------------------------------------------/
 
 
-/* For larger to medium screens size from  481px  wide and down */
 
+   * For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #dog-training {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+    #left-left, #right-right {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+    #flex-dog {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
 
-/* For larger to medium screens size from  481px  wide and down */
-@media screen and (max-width:  481px) {
-    .left-left-heading {
-    width: 380px;
-    height: 144px;
-  }
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
 
-  .right-right-heading {
-    width: 380px;
-    height: 144px
-
-  }
-  #left-left  {
-    width: 250px;
-    height: 100%;
-    float: left;
-   margin-bottom: 20%;
-  }
-#right-right
-{
-    width: 250px;
-    height: 500px;
-    float: left;
-   margin-bottom: 20%;
+    hr {
+        display: none;
+    }
 }
-#dog-training
-{
-    width: 480px;
-    float: right;
-}
-#times {
-    width: 50%;
-    margin-top: 30px;
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
 
-       
-       }
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    } 
+    #cover-text {
+        left: 0;
+    }
 
-#dog-image {
-    width: 300px;
-   
-}
-#healthier {
-    width: 80px;
-    height: 0px;
-    letter-spacing: 0px;
+    #dog-training {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
 
-}
+    .left-left-heading, .right-right-heading  {
+        width: inherit;
+    }
 
-#healthier p {
-    
-    width: 200px;
-    height: 100px;
-    margin-left: 10%;
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
 
-}
-#times {
-    width: 100%;
-    text-align: center;
-    flex-direction: row;
-}
-#cover-text {
-    width: 250px;
-    height: 70px;
-}
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
 
-#flex-dog {
-    width: 50%;
-   display: flex;
- flex-direction: row;
- 
+    #photo{
+        column-count: 3;
+    }
 }
+/* For small screen sizes below 800px width */
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
 }
-
