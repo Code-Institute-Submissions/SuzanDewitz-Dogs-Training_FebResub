@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
 
-/* Remove default margin, padding and border for all elements to make positioning easier */
+
 
 * {
     margin: 0;
@@ -494,10 +494,10 @@ footer {
 
   }
   #left-left  {
-    width: 258px;
-    height: 50%;
-    letter-spacing: 1px;
+    width: 250px;
+    height: 100%;
     float: left;
+   margin-bottom: 20%;
   }
 #right-right
 {
