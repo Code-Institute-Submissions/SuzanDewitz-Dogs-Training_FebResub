@@ -495,17 +495,21 @@ footer {
         float: left;
         padding: 0;
     }
-    #flex-dog {
+     #left-left {
+        padding: 0 10px;
+    }
+    
+ #flex-dog {
         clear: both;
         width: 100%;
         float: left;
-        padding: 0;
+        padding: 0 20px;
     }
 
     #times > div {
         width: 100%;
         clear: both;
-        height: 200px;
+        height: 150px;
         padding: 20%;
     }
 
@@ -537,18 +541,22 @@ footer {
         width: inherit;
     }
 
-    .left-about-heading h2, .right-about-heading h2 {
+    .left-left-heading h2, .right-right-heading h2 {
         width: 100%;
         text-align: center;
     }
 
-    .left-about-heading p, .right-about-heading p {
+    .left-left-heading p, .right-left-heading p {
         text-align: center;
-        padding: 0 20px;
+        padding: 0 10px;
+    }
+    .left-left-heading p {
+    padding: 0 10px;
     }
 
+    
     #photo{
-        column-count: 3;
+        column-count: 1;
     }
 }
 /* For small screen sizes below 800px width */
