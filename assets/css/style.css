@@ -494,10 +494,9 @@ footer {
         width: 100%;
         float: left;
         padding: 0;
+      
     }
-     #left-left {
-        padding: 0 10px;
-    }
+    
     
  #flex-dog {
         clear: both;
@@ -548,20 +547,26 @@ footer {
 
     .left-left-heading p, .right-left-heading p {
         text-align: center;
-        padding: 0 10px;
-    }
-    .left-left-heading p {
-    padding: 0 10px;
-    }
-
-    
-    #photo{
-        column-count: 1;
+        padding: 0 20px;
+        
+       
+        
     }
 }
-/* For small screen sizes below 800px width */
+
+    /* For small screen sizes below 800px width */
 @media screen and (max-width: 800px) {
-    #photos {
-        column-count: 1;
+
+    .left-left-heading p, .right-left-heading p {
+        width: 150%;
+        clear: both;
+        flex: none;
+        padding: 0;
     }
+#stasi-photo {
+   
+    padding: 0;
+}
+ 
+    
 }
