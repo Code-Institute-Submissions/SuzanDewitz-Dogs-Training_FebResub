@@ -557,12 +557,7 @@ footer {
     /* For small screen sizes below 800px width */
 @media screen and (max-width: 800px) {
 
-    .left-left-heading p, .right-left-heading p {
-        width: 150%;
-        clear: both;
-        flex: none;
-        padding: 0;
-    }
+   
 #stasi-photo {
    
     padding: 0;
