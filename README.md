@@ -1,16 +1,15 @@
-# Welcome to suzan dewitz first project
-[why we love dogs](https://github.com/SuzanDewitz/Dogs-Training) 
+# Welcome to pitbull breeders Gaiberg
+
+### The welcome to pitbull breeders Gaiberg website  aimed for  how dogs improve our mental and physical health by going out with them choosing the correct bred.
+
+### The users welcome to pitbull breeders Gaiberg website listed nearl most dogs bred that the user can take a look and thick which dogs are the best fit for the owner.
 
 
+![image](https://user-images.githubusercontent.com/114075332/203072255-520c2b32-7118-4bdf-bab6-8606ef2c66fb.png)
 
 
-[why we love dogs](https://suzandewitz.github.io/Dogs-Training/)
+-
 
-
-Text about dogs from google     "Gene Hill"
-
-HTML tutorial for beginners - paragraph, line breaks, spacing and horizontal rule  
-https://www.youtube.com/channel/UCBS7Cl8R7BIQX5vm3k0rTZA
-
+## Features 
 
 
