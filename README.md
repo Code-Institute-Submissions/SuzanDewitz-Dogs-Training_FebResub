@@ -75,5 +75,35 @@ The website listed nearl most dogs breed that the user can take a look and thick
  ![image](https://user-images.githubusercontent.com/114075332/203280703-1ac2d080-22bf-4243-b243-608daf49b68f.png)
 
 
+* **contact**
+
+   * This section will allow customers conversions in convenient contact with direct communication.
+  
+   * To make customers comfortable and to increase conversions between  for greater engagement with us to receive feedback.
+
+   
+![image](https://user-images.githubusercontent.com/114075332/203290150-afd7a13c-60c6-4220-843b-c66df9c2e8b3.png)
+
+
+
+* **dog body**
+
+   *  This specific section shows how important to truly understand animal body.
+   *  The dog’s body parts and organs are all complex, so it is beneficial to know how they function, what problems can happen, and how to improve and maintain health.
+
+
+
+![image](https://user-images.githubusercontent.com/114075332/203293543-cb8adaa9-a7d4-4e69-ae2b-fd4e23233f5b.jpg)
+
+
+
+
+* **Testing**
+   *  T
+   *  T
+
+
+
+   
 
 
