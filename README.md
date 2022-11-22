@@ -40,8 +40,8 @@ The website listed nearl most dogs breed that the user can take a look and thick
 
 
 * **Healthier hearts**
-   * This section will allow the user to see exactly what dogs for*" by detailing the 3 areas 
-   * BY detailing with 3 areas like, DOG BREEDS FOR REDUCING STRESS, MORE ACTIVE LIFESTYLE, DOG BREEDS FOR REDUCING STRESS
+   * This section will allow the user to see exactly why we need dogs for by three category approach.
+   * Users are guided through each category like, DOG BREEDS FOR REDUCING STRESS, MORE ACTIVE LIFESTYLE, DOG BREEDS FOR REDUCING STRESS
 
 
 ![image](https://user-images.githubusercontent.com/114075332/203236171-07962632-7f6e-4b2e-a4e1-3f31881b2761.png)
@@ -50,7 +50,10 @@ The website listed nearl most dogs breed that the user can take a look and thick
    
 
 * **Opening times**
-   *  This section will allow the user to see exactly when our opening times.
+   *  Opening Hours feature helps to deliver a personalised customer experience without wasting their time or keeping them waiting with no proper communication.
+   *  The customer is well informed about when exactly he/she can receive our business services. 
+
+
    
 ![image](https://user-images.githubusercontent.com/114075332/203238344-d8fd90b7-2c73-4b84-998c-25bcae1b7571.png)
 
@@ -59,10 +62,16 @@ The website listed nearl most dogs breed that the user can take a look and thick
    *  The footer section includes links to the relevant social media sites for Welcome to pitbull breeders Gaiberg. The links will open to a new tab to allow easy navigation for the user.
    *  The footer is valuable to the user as it encourages them to keep connected via social media
 
+![image](https://user-images.githubusercontent.com/114075332/203273696-e36f4062-0a92-4567-af5e-efe944fc82a9.png)
 
 
   
 
+* **photos**
+   *  Follow with the title from home page **Welcome to pitbull breeders Gaiberg** to keep for visitor easier.
+   *  photos page to tell how bond of love and affection that we share with our pets is always how special. How dogs are indeed our closest friends because their unconditional love for us makes them more than just a pet.
+
+   
 
 
 
