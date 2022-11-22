@@ -29,8 +29,8 @@ The website listed nearl most dogs breed that the user can take a look and thick
  * **Dogs sports for dog owners section**
 
 
-    * This section gives the user a quick overview of what the site's aims are and how we add value to their experience.
-    * We provide reassurance to the user by detailing the 4 areas that we believe are important to every visters with particularly way pointing with quick information like Human friendly, Dogs Protect , Social contact, Get you active. 
+    * This section gives the user a quick overview of what the site's aims.
+    * By providing reassurance to the user by detailing the 4 areas that we believe are important to every visters with particularly way pointing with quick information like Human friendly, Dogs Protect , Social contact, Get you active. 
 
 
 
@@ -41,7 +41,7 @@ The website listed nearl most dogs breed that the user can take a look and thick
 
 * **Healthier hearts**
    * This section will allow the user to see exactly what dogs for*" by detailing the 3 areas 
-   *  BY detailing the with 3 areas, DOG BREEDS FOR REDUCING STRESS, MORE ACTIVE LIFESTYLE, DOG BREEDS FOR REDUCING STRESS
+   * BY detailing with 3 areas like, DOG BREEDS FOR REDUCING STRESS, MORE ACTIVE LIFESTYLE, DOG BREEDS FOR REDUCING STRESS
 
 
 ![image](https://user-images.githubusercontent.com/114075332/203236171-07962632-7f6e-4b2e-a4e1-3f31881b2761.png)
@@ -49,8 +49,18 @@ The website listed nearl most dogs breed that the user can take a look and thick
 
    
 
-
+* **Opening times**
+   *  This section will allow the user to see exactly when our opening times.
    
+![image](https://user-images.githubusercontent.com/114075332/203238344-d8fd90b7-2c73-4b84-998c-25bcae1b7571.png)
+
+
+* **The Footer**
+   *  The footer section includes links to the relevant social media sites for Welcome to pitbull breeders Gaiberg. The links will open to a new tab to allow easy navigation for the user.
+   *  The footer is valuable to the user as it encourages them to keep connected via social media
+
+
+
   
 
 
