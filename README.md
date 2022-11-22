@@ -70,8 +70,10 @@ The website listed nearl most dogs breed that the user can take a look and thick
 * **photos**
    *  Follow with the title from home page **Welcome to pitbull breeders Gaiberg** to keep for visitor easier.
    *  photos page to tell how bond of love and affection that we share with our pets is always how special. How dogs are indeed our closest friends because their unconditional love for us makes them more than just a pet.
+   *  The messages for the Loss of Dogs tell how unbreakable and unexplaninable bond between dogs and humans.
 
-   
+ ![image](https://user-images.githubusercontent.com/114075332/203280703-1ac2d080-22bf-4243-b243-608daf49b68f.png)
+
 
 
 
