@@ -2,7 +2,7 @@
 
 The welcome to pitbull breeders Gaiberg website is aimed at how dogs improve our mental and physical health and helpfull and lovely animals they are.
 
-The websit to have more chance of being found online by people who are looking for products and services people who may want to start a relationship with dogs and for people who never have a dogs
+The websit to have more chance of being found online by people who  want to start a relationship with dogs and for people who never have a dogs.
 
 The website listed nearl most dogs breed that the user can take a look and thick which dogs are the best fit for any household.
 
@@ -12,7 +12,7 @@ The website listed nearl most dogs breed that the user can take a look and thick
 
 * **Navigation**
 
-  *  At the top of each the navigation menu allows the user to quickly and conveniently access the information they need, like 'Home page', 'photos' and 'Contact'.
+  *  At the top of each the navigation menu allows the user to quickly and conveniently access the information they need, like 'Home page', 'photos', and 'Contact'.
 
   * The navigation options are clear and simple to use by hovering over that part of the page underlined border will be displayed on the page that the user currenlty on.
 
@@ -21,7 +21,7 @@ The website listed nearl most dogs breed that the user can take a look and thick
 * **The Header**
 
   * The header includes  the site's purpose by stating "*Welcome to pitbull breeders Gaiberg*".
-  * This section introduces by increase visibility with an eye-catching animation by targeting the right keywordsand optimising the site.
+  * This section introduces by increase visibility with an eye-catching animation by targeting the right keywords and optimising the site.
 
 
 
@@ -99,14 +99,15 @@ The website listed nearl most dogs breed that the user can take a look and thick
 
 ## Testing
 
-   #### HTML
-     * They was an errors when passing through the official W3C validator resolved based on the output from the validation
+#### HTML
+
+  * They were an error when passing through the official W3C validator resolved based on the output from the validation
 
 ![image](https://user-images.githubusercontent.com/114075332/203514331-6c9182fa-2992-4bc6-a091-64db1484e0a3.png)
 
 
-   #### CSS   
-     * They was an errors when passing through the official (Jigsaw) validator resolved based on the output from the validation 
+#### CSS   
+  * They were an error when passing through the official (Jigsaw) validator resolved based on the output from the validation 
   
    
 ![image](https://user-images.githubusercontent.com/114075332/203516737-e3c16fde-4369-4b68-8ef9-ebf3ce2fe08d.png)
@@ -137,6 +138,7 @@ The website listed nearl most dogs breed that the user can take a look and thick
 
 ## Media 
 * The image for home pages and contact took https://www.pexels.com 
+* The image for contact body dog image took  https://www.bing.com/images/
 
 * The image for photo pages my private dog which passageway in 2018 
 
