@@ -112,11 +112,18 @@ The website listed nearl most dogs breed that the user can take a look and thick
 #### Solved Bugs
 
    *  The code was tested with the HTML and CSS validators, and errors were identified and resolved based on the output from the validation.
-   *  The error when end tag with div element  "right-right" I fix after detecting the line which is causing the problem.
+   *  I encountered an issue in HTML at end tag with div element  "right-right" I fix after detecting the line which is causing the problem.
 
 #### Unsolved Bugs
-   * T 
-   * T 
+   *	The navigation bar has lost responsiveness on smaller screen sizes, I am currently examine this issue, however it will not be fixed in time for the deployment deadline.
+
+
+ ### Deployment
+
+ * The site deployed on Github pages
+ * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+ * The link can be found here -  https://suzandewitz.github.io/Dogs-Training/
+   
 
 
 
