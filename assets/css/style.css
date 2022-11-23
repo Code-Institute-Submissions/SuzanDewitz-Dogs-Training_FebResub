@@ -550,8 +550,20 @@ footer {
    
 #stasi-photo {
    
-    padding: 0;
+    padding: 20;
+    height: auto;
+    max-width: 50%;
 }
  
-    
 }
+
+@media only screen and (max-width: 480px) {
+
+    #stasi-photo {
+   
+        padding: 0;
+        height: auto;
+        max-width: 100%;
+    }
+
+    }
