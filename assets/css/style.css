@@ -559,8 +559,10 @@ footer {
 @media screen and (max-device-width: 480px) {
  
     #stasi-photo {
-    height: auto;
-    max-width: 100%;
+ 
+    
+    margin-top: 380px;
+    padding: 10%;
 
 
 }
