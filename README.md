@@ -96,11 +96,27 @@ The website listed nearl most dogs breed that the user can take a look and thick
 ![image](https://user-images.githubusercontent.com/114075332/203293543-cb8adaa9-a7d4-4e69-ae2b-fd4e23233f5b.jpg)
 
 
-
-
 * **Testing**
-   *  T
-   *  T
+
+   #### HTML
+     * They was an errors when passing through the official W3C validator resolved based on the output from the validation
+   #### CSS   
+     * They was an errors when passing through the official (Jigsaw) validator resolved based on the output from the validation 
+  
+   
+    
+
+
+
+
+#### Solved Bugs
+
+   *  The code was tested with the HTML and CSS validators, and errors were identified and resolved based on the output from the validation.
+   *  The error when end tag with div element  "right-right" I fix after detecting the line which is causing the problem.
+
+#### Unsolved Bugs
+   * T 
+   * T 
 
 
 
