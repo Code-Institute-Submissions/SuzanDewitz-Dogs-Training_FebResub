@@ -550,26 +550,19 @@ footer {
    
 #stasi-photo {
    
-    padding: 10px;
+    padding: 20%;
+    margin-bottom: 100px;
 }
 }
  
     /* For Mobile View */
 @media screen and (max-device-width: 480px) {
  
-    #stasi-photo   {
-     width: 50px;
-     padding: 0 20px;
-    font-size: 5%;
-    color: black;
-    margin-right: 100px;
-  }
+    #stasi-photo {
+    height: auto;
+    max-width: 100%;
 
-  #stasi-photo  img 
-{
-    padding:20px; 
-    height: 20rem;
-    margin-right: 100px;
+
 }
 
 }
