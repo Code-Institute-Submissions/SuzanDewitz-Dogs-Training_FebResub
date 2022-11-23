@@ -130,6 +130,16 @@ The website listed nearl most dogs breed that the user can take a look and thick
 
 
 ## Media 
-* The pohot for home page and contact taken 
+* The image for home pages and contact took https://www.pexels.com 
+
+* The image for photo pages my private dog which passageway in 2018 
 
 
+## For General Project Advice
+ * HTML & CSS Coding Best Practices
+ * Google HTML/CSS Style Guide
+
+
+
+
+# Thank you to My Husband and all classmates in slack for the support!
