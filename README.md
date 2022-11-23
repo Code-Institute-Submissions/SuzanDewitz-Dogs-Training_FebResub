@@ -136,6 +136,7 @@ The website listed nearl most dogs breed that the user can take a look and thick
 
 
 ## For General Project Advice
+ * https://www.w3schools.com/
  * HTML & CSS Coding Best Practices
  * Google HTML/CSS Style Guide
 
