@@ -122,7 +122,7 @@ The website listed nearl most dogs breed that the user can take a look and thick
 
  * The site deployed on Github pages
  * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
- * The link can be found here -  https://suzandewitz.github.io/Dogs-Training/
+ * The live link can be found here -  https://suzandewitz.github.io/Dogs-Training/
    
 
 
