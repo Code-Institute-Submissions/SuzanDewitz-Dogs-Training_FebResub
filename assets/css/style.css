@@ -103,8 +103,8 @@ h1, h2 {
     width: 100%;
     background: url('../images/dogs-image.webp') no-repeat center center;
     background-size: cover;
-    margin: right;
-    margin-bottom: 0px;
+   
+ margin-bottom: 0px;
     margin-block-start: auto;
     /* animates zoom effect on loading page */
     animation-name: dogs-zoom;
@@ -190,12 +190,7 @@ h1, h2 {
 text-align: center;
 }
 
-.left-left-heading p
-{
-   text-align: broun;
-   
-   
-}
+
 
    hr 
 {
