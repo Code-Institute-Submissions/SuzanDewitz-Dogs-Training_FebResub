@@ -21,7 +21,7 @@ The website listed nearl most dogs breed that the user can take a look and thick
 * **The Header**
 
   * The header includes  the site's purpose by stating "*Welcome to pitbull breeders Gaiberg*".
-  * This section introduces by increase visibility with an eye-catching animation by targeting the right keywords and optimising the site.
+  * This section introduces by increase visibility with an eye-catching animation by targeting the right keywords and optimizing the site.
 
 
 
@@ -41,7 +41,7 @@ The website listed nearl most dogs breed that the user can take a look and thick
 
 * **Healthier hearts**
    * This section will allow the user to see exactly why we need dogs for by three category approach.
-   * Users are guided through each category like, DOG BREEDS FOR REDUCING STRESS, MORE ACTIVE LIFESTYLE, DOG BREEDS FOR REDUCING STRESS
+   * Users are guided through each category like, 'DOG BREEDS', 'FOR REDUCING STRESS',  'MORE ACTIVE LIFESTYLE', 'DOG BREEDS FOR REDUCING STRESS'
 
 
 ![image](https://user-images.githubusercontent.com/114075332/203236171-07962632-7f6e-4b2e-a4e1-3f31881b2761.png)
