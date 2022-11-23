@@ -101,7 +101,7 @@ The website listed nearl most dogs breed that the user can take a look and thick
 
    #### HTML
      * They was an errors when passing through the official W3C validator resolved based on the output from the validation
-     
+
 ![image](https://user-images.githubusercontent.com/114075332/203514331-6c9182fa-2992-4bc6-a091-64db1484e0a3.png)
 
 
@@ -109,8 +109,9 @@ The website listed nearl most dogs breed that the user can take a look and thick
      * They was an errors when passing through the official (Jigsaw) validator resolved based on the output from the validation 
   
    
-    
+![image](https://user-images.githubusercontent.com/114075332/203516737-e3c16fde-4369-4b68-8ef9-ebf3ce2fe08d.png)
 
+  
 
 
 
