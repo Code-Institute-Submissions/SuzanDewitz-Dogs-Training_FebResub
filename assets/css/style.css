@@ -561,10 +561,27 @@ footer {
     #stasi-photo {
  
     
-    margin-top: 380px;
-    padding: 10%;
+    margin-top: 360px;
+    padding-left: 0;
+    font-size: 1em;
+    }
+
+    .contact-form-section {
+        padding-left: 0;
+        width: 200%;
+        height: 10%;
+        box-sizing: 30%;
+     }
+    
+}
+    @media screen and (max-width: 325px) {
+        #stasi-photo {
+        padding-left: 0;
+        margin-top: 360px;
+    }
 
 
+ 
+   
 }
 
-}
