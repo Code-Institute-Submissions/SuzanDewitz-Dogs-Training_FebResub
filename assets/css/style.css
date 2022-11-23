@@ -347,7 +347,7 @@ hr
 #stasi-photo  img 
 {
     padding:20px; 
-    height: 50rem;
+    height: 20rem;
     padding-inline-start: 15%;
 }
 #stasi-photo p
@@ -550,20 +550,19 @@ footer {
    
 #stasi-photo {
    
-    padding: 20;
-    height: auto;
-    max-width: 50%;
+    padding: 0;
+}
 }
  
+    /* For Mobile View */
+@media screen and (max-device-width: 480px) 
+ 
+    #stasi-photo   {
+     width: 50px;
+     padding: 0 20px;
+    font-size: 5%;
+    color: black;
+
+  }
+
 }
-
-@media only screen and (max-width: 480px) {
-
-    #stasi-photo {
-   
-        padding: 0;
-        height: auto;
-        max-width: 100%;
-    }
-
-    }
