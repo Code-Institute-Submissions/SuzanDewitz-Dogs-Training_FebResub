@@ -140,7 +140,7 @@ The website listed nearl most dogs breed that the user can take a look and thick
 * The image for home pages and contact took https://www.pexels.com 
 * The image for contact body dog image took  https://www.bing.com/images/
 
-* The image for photo pages my private dog which passageway in 2018 
+* The image for photo pages my private dog which passed away in 2018 
 
 
 ## For General Project Advice
