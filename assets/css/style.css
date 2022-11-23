@@ -348,7 +348,7 @@ hr
 {
     padding:20px; 
     height: 20rem;
-    padding-inline-start: 15%;
+    margin-right: 100px;
 }
 #stasi-photo p
 {
@@ -550,19 +550,26 @@ footer {
    
 #stasi-photo {
    
-    padding: 0;
+    padding: 10px;
 }
 }
  
     /* For Mobile View */
-@media screen and (max-device-width: 480px) 
+@media screen and (max-device-width: 480px) {
  
     #stasi-photo   {
      width: 50px;
      padding: 0 20px;
     font-size: 5%;
     color: black;
-
+    margin-right: 100px;
   }
+
+  #stasi-photo  img 
+{
+    padding:20px; 
+    height: 20rem;
+    margin-right: 100px;
+}
 
 }
