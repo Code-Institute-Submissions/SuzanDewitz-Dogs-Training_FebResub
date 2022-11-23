@@ -55,7 +55,8 @@ The website listed nearl most dogs breed that the user can take a look and thick
 
 
    
-![image](https://user-images.githubusercontent.com/114075332/203238344-d8fd90b7-2c73-4b84-998c-25bcae1b7571.png)
+![image](https://user-images.githubusercontent.com/114075332/203513554-d5d3eb59-edfd-471d-9dac-95e205c188c0.jpg)
+
 
 
 * **The Footer**
@@ -100,6 +101,10 @@ The website listed nearl most dogs breed that the user can take a look and thick
 
    #### HTML
      * They was an errors when passing through the official W3C validator resolved based on the output from the validation
+     
+![image](https://user-images.githubusercontent.com/114075332/203514331-6c9182fa-2992-4bc6-a091-64db1484e0a3.png)
+
+
    #### CSS   
      * They was an errors when passing through the official (Jigsaw) validator resolved based on the output from the validation 
   
