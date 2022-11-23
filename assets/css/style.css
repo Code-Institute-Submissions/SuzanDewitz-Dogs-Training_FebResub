@@ -567,12 +567,15 @@ footer {
     }
 
     .contact-form-section {
-        padding-left: 0;
-        width: 200%;
+        
+        width: 180%;
         height: 10%;
         box-sizing: 30%;
+        float: left;
+        font-size: 50%;
+
      }
-    
+  
 }
     @media screen and (max-width: 325px) {
         #stasi-photo {
