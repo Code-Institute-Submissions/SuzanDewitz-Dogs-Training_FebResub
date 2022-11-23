@@ -96,7 +96,7 @@ The website listed nearl most dogs breed that the user can take a look and thick
 ![image](https://user-images.githubusercontent.com/114075332/203293543-cb8adaa9-a7d4-4e69-ae2b-fd4e23233f5b.jpg)
 
 
-* **Testing**
+## Testing
 
    #### HTML
      * They was an errors when passing through the official W3C validator resolved based on the output from the validation
@@ -124,9 +124,12 @@ The website listed nearl most dogs breed that the user can take a look and thick
  * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
  * The live link can be found here -  https://suzandewitz.github.io/Dogs-Training/
    
+## Credits
+*  The text for the homepage was taken from google free dogs pages
+*  The Code for the footer and social media links was adapated from the Love Running project.
 
 
-
-   
+## Media 
+* The pohot for home page and contact taken 
 
 
