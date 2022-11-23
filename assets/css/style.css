@@ -193,7 +193,7 @@ text-align: center;
 .left-left-heading p
 {
    text-align: broun;
-   background-color: rgba(0,0,0 .10);
+   
    
 }
 
@@ -241,9 +241,7 @@ text-align: center;
 .right-right-heading p
 {
    text-align: broun;
-   background-color: rgba(0,0,0 .10);
-   
-}
+ }
 
 p {
     color: rgb(0,0,0);
