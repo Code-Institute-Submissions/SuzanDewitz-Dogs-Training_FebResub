@@ -20,7 +20,7 @@ body {
 }
 
 
-/* Header styling with linear gradient and sticky position */
+
 
 /* headings */
 
@@ -237,8 +237,8 @@ text-align: center;
 
 p {
     color: rgb(0,0,0);
-   font-size:20px;
-  font-family:lato serif;
+   font-size: 20px;
+  font-family: lato serif;
   text-align: left;
 }
 
