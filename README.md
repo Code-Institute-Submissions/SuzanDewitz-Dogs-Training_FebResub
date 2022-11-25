@@ -86,6 +86,12 @@ The website listed nearl most dogs breed that the user can take a look and thick
 ![image](https://user-images.githubusercontent.com/114075332/203290150-afd7a13c-60c6-4220-843b-c66df9c2e8b3.png)
 
 
+   * *  The contact form can only be submitted by using the required data: first name, last name, and email address, plus the user can also write he/she message in the text field and select the sending message buttons works.
+
+![image](https://user-images.githubusercontent.com/114075332/203905797-2e1b6043-a66d-44db-8964-37f305fc1db7.png)
+
+
+
 
 * **dog body**
 
@@ -125,6 +131,10 @@ The website listed nearl most dogs breed that the user can take a look and thick
 
 #### Unsolved Bugs
    *	The navigation bar has lost responsiveness on smaller screen sizes, I am currently examine this issue, however it will not be fixed in time for the deployment deadline.
+
+*  Accessibility: the colours and fonts are easy to read, as assessed by lighthouse in Devtools.
+
+
 
 
  ### Deployment
