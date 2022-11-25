@@ -118,7 +118,8 @@ The website listed nearl most dogs breed that the user can take a look and thick
   * CSS: no errors were returned when passing through the Jigsaw validator.
   
    
-![image](https://user-images.githubusercontent.com/114075332/203516737-e3c16fde-4369-4b68-8ef9-ebf3ce2fe08d.png)
+![imge](https://user-images.githubusercontent.com/114075332/203907204-596963f8-8c6e-4550-922c-937159e49159.png)
+
 
   
 

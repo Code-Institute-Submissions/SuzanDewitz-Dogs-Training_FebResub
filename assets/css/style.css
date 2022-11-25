@@ -372,7 +372,7 @@ hr
     
 }
 
-/* Targets the for header */
+/* Targets the for contact form  */
 
 .contact-form h2 {
     text-align: center;
@@ -382,7 +382,7 @@ hr
     
 }
 
-/* Targets the inputs on the form */
+/* Targets the inputs on the contact form */
 
 .form-input {
     width: 100%;
@@ -396,7 +396,7 @@ hr
 
 /* Targets the labels for the form inputs */
 
-.contact-form > label {
+.contact-form  label {
     font-size: 1.2rem;
     padding: 1rem;
 }
