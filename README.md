@@ -101,13 +101,15 @@ The website listed nearl most dogs breed that the user can take a look and thick
 
 #### HTML
 
-  * They were an error when passing through the official W3C validator resolved based on the output from the validation
+  * HTML: no errors were returned when passing through the W3C validator:
 
-![image](https://user-images.githubusercontent.com/114075332/203514331-6c9182fa-2992-4bc6-a091-64db1484e0a3.png)
+![imge](https://user-images.githubusercontent.com/114075332/203903729-caa013b6-58cd-4c34-b86b-f0f6302949e8.png)
+
+
 
 
 #### CSS   
-  * They were an error when passing through the official (Jigsaw) validator resolved based on the output from the validation 
+  * CSS: no errors were returned when passing through the Jigsaw validator.
   
    
 ![image](https://user-images.githubusercontent.com/114075332/203516737-e3c16fde-4369-4b68-8ef9-ebf3ce2fe08d.png)
