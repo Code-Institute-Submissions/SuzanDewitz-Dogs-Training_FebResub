@@ -121,14 +121,6 @@ The website listed nearl most dogs breed that the user can take a look and thick
 ![image](https://user-images.githubusercontent.com/114075332/203913351-87457dc5-c76a-4487-9a8f-405f8febf5bb.png)
 
 
-*  Accessibility: the colours and fonts are easy to read, as assessed by lighthouse in Devtools.
-
-![image](https://user-images.githubusercontent.com/114075332/204112075-bd2cd722-d2b2-48cd-8993-e7a3e631b9c2.png)
-
-  
-
-
-
 #### Solved Bugs
 
    *  The code was tested with the HTML and CSS validators, and errors were identified and resolved based on the output from the validation.
@@ -139,6 +131,10 @@ The website listed nearl most dogs breed that the user can take a look and thick
 
 
 
+* Accessibility
+  *  Accessibility: the colours and fonts are easy to read, as assessed by lighthouse in Devtools.
+
+![image](https://user-images.githubusercontent.com/114075332/204112075-bd2cd722-d2b2-48cd-8993-e7a3e631b9c2.png)
 
 
  ### Deployment
