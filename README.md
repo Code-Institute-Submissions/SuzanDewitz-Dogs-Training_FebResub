@@ -118,10 +118,12 @@ The website listed nearl most dogs breed that the user can take a look and thick
   * CSS: no errors were returned when passing through the Jigsaw validator.
   
    
-![opening test css (2)](https://user-images.githubusercontent.com/114075332/203913351-87457dc5-c76a-4487-9a8f-405f8febf5bb.png)
+![image](https://user-images.githubusercontent.com/114075332/203913351-87457dc5-c76a-4487-9a8f-405f8febf5bb.png)
 
 
+*  Accessibility: the colours and fonts are easy to read, as assessed by lighthouse in Devtools.
 
+![image](https://user-images.githubusercontent.com/114075332/204112075-bd2cd722-d2b2-48cd-8993-e7a3e631b9c2.png)
 
   
 
@@ -135,7 +137,6 @@ The website listed nearl most dogs breed that the user can take a look and thick
 #### Unsolved Bugs
    *	The navigation bar has lost responsiveness on smaller screen sizes, I am currently examine this issue, however it will not be fixed in time for the deployment deadline.
 
-*  Accessibility: the colours and fonts are easy to read, as assessed by lighthouse in Devtools.
 
 
 
