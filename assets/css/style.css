@@ -359,13 +359,13 @@ hr
 #stasi-photo 
 {
     background-color: rgb(148, 246, 246);
-    
-   
     flex-direction: column;
-   
-    
     margin: 0;
+    overflow-y: scroll;
+    
 }
+
+
 #stasi-photo  img 
 {
     padding:20px; 
