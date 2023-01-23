@@ -422,21 +422,24 @@ hr
     color: white;
     cursor: pointer;
 }
-/*--------------------------------------------------dogs body---------------------------------------------------------------*/
-/*dogs body*/
 
-#dog-body {
-    
-    text-align: center;
+/* Location Map */
+
+#location-container {
+    display: flex;
+    justify-content: center;
 }
 
-#photos {
-
-    background-color: aqua;
-    margin-left: auto;
-    padding: 2.5rem
-
+#location {
+    width: 85%;
+    padding-bottom: 2em;
 }
+
+iframe {
+    margin: 20px 0px;
+    width: 100%;
+}
+
 
 /*-----------------------------------------------------------------------social networks networks-------------------------------------------------------------*/
 /* social-networks-networks */
@@ -464,7 +467,10 @@ footer {
     height: 150px;
     text-align: center;
 }
- 
+#phone-number {
+    color: #3a3a3a;
+    text-align: center;
+}
 /*---------------------------------------------------------------------- Media queries *--------------------------------------------------------------------------------------------------------/
 
 
