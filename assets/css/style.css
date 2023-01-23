@@ -16,7 +16,9 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
-    
+    background-image: url('../images/bitbull\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -57,7 +59,7 @@ h1, h2 {
 
 #menu, #logo {
     line-height: 100px;
-    color: rgb(0,0,128);
+    color: white;
 }
 
 #menu li {
@@ -369,7 +371,7 @@ hr
     border-radius: 2rem;
     border: .20rem solid rgb(22, 69, 100);
     margin-left: 10%;
-    
+
 }
 
 /* Targets the for contact form  */
@@ -399,6 +401,7 @@ hr
 .contact-form  label {
     font-size: 1.2rem;
     padding: 1rem;
+    
 }
 
 /* Targets the textarea form input */
@@ -422,16 +425,15 @@ hr
     color: white;
     cursor: pointer;
 }
-
-
-/*-----------------------------------------------------------------------social networks networks-------------------------------------------------------------*/
-/* social-networks-networks */
 /* Location Map */
 
 #location-container {
     display: flex;
     justify-content: center;
+    margin-left: 5%;
+    
 }
+
 
 #location {
     width: 85%;
@@ -439,9 +441,14 @@ hr
 }
 
 iframe {
-    margin: 20px 0px;
+    margin: 200px 0px;
     width: 100%;
+    
 }
+
+/*-----------------------------------------------------------------------social networks networks-------------------------------------------------------------*/
+
+
 
 
 .social-networks{
@@ -468,6 +475,8 @@ footer {
 #phone-number {
     color: #3a3a3a;
     text-align: center;
+    color: black;
+background-color: white;    
 }
 /*---------------------------------------------------------------------- Media queries *--------------------------------------------------------------------------------------------------------/
 
