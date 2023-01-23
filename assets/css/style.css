@@ -423,6 +423,9 @@ hr
     cursor: pointer;
 }
 
+
+/*-----------------------------------------------------------------------social networks networks-------------------------------------------------------------*/
+/* social-networks-networks */
 /* Location Map */
 
 #location-container {
@@ -439,11 +442,6 @@ iframe {
     margin: 20px 0px;
     width: 100%;
 }
-
-
-/*-----------------------------------------------------------------------social networks networks-------------------------------------------------------------*/
-/* social-networks-networks */
-
 
 
 .social-networks{
