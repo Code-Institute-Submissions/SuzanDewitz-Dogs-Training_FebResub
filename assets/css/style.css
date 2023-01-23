@@ -358,11 +358,11 @@ hr
 
 #stasi-photo 
 {
-    background-color: rgb(13, 234, 234);
-    letter-spacing: 1px;
-    text-transform: capitalize;
-    padding-inline-start: 5%;
-    white-space: nowrap;
+    background-color: rgb(148, 246, 246);
+    
+   
+    flex-direction: column;
+   
     
     margin: 0;
 }
@@ -374,8 +374,8 @@ hr
 }
 #stasi-photo p
 {
-    margin: 0;
-    padding:20px; 
+    display: grid;
+   grid-template-columns: 1 
     
 }
 /*---------------------------------------------------------------- CONTACT FORM STYLING--------------------------------------------------------------- */
