@@ -167,37 +167,70 @@ h1, h2 {
     }
   /*------------------------------------------------------------main page --------------------------------------------------------------------------*/  
  
-
-
-#training 
-{
+#breeds 
+#Care
+#training  {
+    background-color: lightgray;
     text-align: center;
     padding-top: 100px;
+    
 }
 
-#breeds {
-    background-color: lightgray;
-}
+
 .card {
     border: none;
-    padding: 10px;
+    padding: 20px;
+    text-align: center;
+    display: grid;
+  align-items: center;
+  
 }
+
 main {
     display: flex;
     
 }
+li {
+    list-style-type: none;
+  }
      img {
-    display: block;
-    height: 70%;
-    width: 70%;
+    
+    height: 30%;
+    width: 20%;
     border-radius: 8px;
 }
 
 
-.flex-container {
-    text-align: center;
+.container {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #4CAF50;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #888888;
+    transition: all 0.3s;
+    
+    
 }
 
+
+.container img {
+    width: 25%;
+    margin-right: 10px;
+}
+.container p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    
+}
 p {
     text-align: center;
     margin: 0px 16px;
@@ -207,8 +240,15 @@ p {
    font-family: oswald, sans-serif;
    text-align: left;
    display: block;
-   width: 50%;
+   
 }
+img {
+    width: 30%;
+}
+p {
+    width: 40%;
+}
+
 /*----------------------------------------------------------------------info address------------------------------------*/
 
 #info {
