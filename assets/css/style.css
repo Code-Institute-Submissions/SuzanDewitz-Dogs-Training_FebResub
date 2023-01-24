@@ -165,15 +165,9 @@ h1, h2 {
 
     position: absolute;
     }
-    
-/* dogs training */
+  /*------------------------------------------------------------main page --------------------------------------------------------------------------*/  
+ 
 
-#dogs-training  {
-    height: 600px;
-    bottom: 50px;
-    text-decoration: #008000;
-    
-}
 
 #training 
 {
@@ -181,91 +175,60 @@ h1, h2 {
     padding-top: 100px;
 }
 
-
-/*--------------------------------------------------------------left side left-----------------------------------------------------------------*/
-
-/* left side text */
-
-#left-left {
-    padding-top: 50px;
-    width: 33%;
-    float: left;
-    bottom: 50px;
-    background-color: #008000;
-    padding: 100px 100px;
-    margin: 20px;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
+#breeds {
+    background-color: lightgray;
 }
-.left-left-heading
-{
-    width: 90%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 20px;
-    color: black;
+.card {
+    border: none;
+    padding: 10px;
 }
-
-
-
-.left-left-heading h2
-{
-
-text-align: center;
-}
-
-
-
-   hr 
-{
-    width: 100%;
-    margin: 10px 0;
-}
-
-/*---------------------------------------------------right side right--------------------------------------------------------------------*/
-
-/* right side text */
-
-
-#right-right {
-    padding-top: 50px;
-    width: 33%;
-    float: right;
-    bottom: 50px;
-    background-color: #008000;
-    padding: 100px 100px;
-    margin: 20px;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    
+main {
+    display: flex;
     
 }
-
-.right-right-heading
-{
-    width: 90%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 20px;
-    color: black;   
+     img {
+    display: block;
+    height: 70%;
+    width: 70%;
+    border-radius: 8px;
 }
 
-.right-right-heading h2
-{
 
-text-align: center;
+.flex-container {
+    text-align: center;
 }
-
 
 p {
-   color: white;
+    text-align: center;
+    margin: 0px 16px;
+    font-weight: bold;
+   color: black;
    font-size: 20px;
    font-family: oswald, sans-serif;
    text-align: left;
+   display: block;
+   width: 50%;
+}
+/*----------------------------------------------------------------------info address------------------------------------*/
+
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0 40px;
+}
+
+#info p {
+    padding: 2px;
+}
+
+#info i.fa-solid {
+    padding-right: 10px;
+    width: 20px;
+}
+
+#info .no-icon-indent {
+    margin-left: 30px;
 }
 
 
@@ -303,26 +266,7 @@ p {
 }
 
 
-/* Healthier hearts */
 
-#healthier #hearder
-{
-    text-decoration: underline;
-    padding-bottom: 20px;
-}
-
-#healthier
-{
-    text-align: center;
-    margin: 200px;
-}
-#healthier p
-{
-text-align: right;
-padding-bottom: 20px;
-
-
-}
 
 hr 
 {
@@ -331,30 +275,9 @@ hr
 }
 
 
-/* flex-dog  */
 
-#times 
 
-{     
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
-    margin: 25px 40px;
-}
-#times div {
-    background-image: url('..//images/flex\ dog\ image.jpg');
-    color: black;
-    background-color: grey;
-    width: 30%;
-    height: 400px;
-    float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
-    border: 2px solid white;
-    box-sizing: border-box;
-    }
+
 
     /* --------------------------------------------------------------STASI PHOTO FOR PHOTO PAGE STYLING-----------------------------------------------------------*/
 
@@ -529,46 +452,50 @@ background-color: white;
 }
 /*---------------------------------------------------------------------- Media queries *--------------------------------------------------------------------------------------------------------/
 
-
-
-   * For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-    #dog-training {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-    #welcome {
-        padding: 30px 0;
-        margin: 0;
-    }
-    #left-left, #right-right {
-        width: 100%;
-        float: left;
-        padding: 0;
-      
-    }
-    
-    
- #flex-dog {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0 20px;
-    }
-
-    #times > div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 20%;
-    }
-
-    hr {
-        display: none;
-    }
+/* For Mobile View */
+        
+      @media screen and (max-width: 325px) {
+        #stasi-photo {
+        padding-left: 0;
+        margin-top: 360px;
+    } 
 }
-/* For medium screen sizes from 950px wide and down */
+
+#dog-training
+    /* For Mobile View */
+@media screen and (max-width: 480px) {
+ 
+    #image-container{
+ 
+    
+    margin-top: 360px;
+    padding-left: 0;
+    font-size: 1em;
+    }
+
+    .contact-form-section {
+        
+        width: 180%;
+        height: 10%;
+        float: left;
+        font-size: 50%;
+
+     }
+  
+}
+
+    /* For small screen sizes below 800px width */
+    @media screen and (max-width: 800px) {
+
+   
+        #stasi-photo {
+           
+            padding: 20%;
+            margin-bottom: 100px;
+        }
+        }
+
+  /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
     #menu {
@@ -606,46 +533,29 @@ background-color: white;
     }
 }
 
-    /* For small screen sizes below 800px width */
-@media screen and (max-width: 800px) {
-
-   
-#stasi-photo {
-   
-    padding: 20%;
-    margin-bottom: 100px;
-}
-}
- 
-    /* For Mobile View */
-@media screen and (max-width: 480px) {
- 
-    #stasi-photo {
- 
-    
-    margin-top: 360px;
-    padding-left: 0;
-    font-size: 1em;
+* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #dog-training {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
     }
-
-    .contact-form-section {
-        
-        width: 180%;
-        height: 10%;
-        float: left;
-        font-size: 50%;
-
-     }
   
-}
-    @media screen and (max-width: 325px) {
-        #stasi-photo {
-        padding-left: 0;
-        margin-top: 360px;
+    #left-left, #right-right {
+        width: 100%;
+        float: left;
+        padding: 0;
+      
+    }
+    
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 20%;
     }
 
-
- 
-   
+    hr {
+        display: none;
+    }
 }
-
