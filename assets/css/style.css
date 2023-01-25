@@ -2,6 +2,8 @@
 
 
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +17,6 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-   
     background-color:#47626b;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,15 +25,12 @@ body {
 
 
 
-/* headings */
+/* HEADINGS AND LOGO STYLING */
 
 header {
     height: 2rem;
     position: sticky;
     }
-
-/* HEADINGS AND LOGO STYLING */
-
 
 h1, h2 {
     font-family: Oswald, sans-serif;
@@ -148,24 +146,6 @@ h1, h2 {
         transform: scale(1.1);
     }
 }
-
-/* doge image cover text styling */
-#cover-text {
-    font-size: 100%;
-    font-family: oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    width: 400px;
-    height: 50px;
-
-    padding-top: 20px;
-    background-color: rgb(0,250,250);
-    padding-left: 50px;
-    bottom: 50px;
-    right: 50px;
-
-    position: absolute;
-    }
   /*------------------------------------------------------------main page --------------------------------------------------------------------------*/  
  
 #breeds 
@@ -209,13 +189,17 @@ li {
     justify-content: center;
     border: 1px solid black;
     padding: 10px;
-    margin-bottom: 10px;
+    
     border: 2px solid #4CAF50;
     padding: 20px;
     background-color:#b5c3c7;
     border-radius: 5px;
     box-shadow: 3px 3px 3px #888888;
     transition: all 0.3s;
+    overflow: hidden
+    max-width: 500px;
+    max-height: 500px;
+    
     
     
 }
@@ -244,8 +228,12 @@ p {
    display: block;
    
 }
+.text {
+    color: #001a00;
+    font-family: 'Roboto', sans-serif;
+}
 img {
-    width: 30%;
+    width: 20%;
 }
 p {
     width: 40%;
@@ -389,6 +377,8 @@ hr
 
 .contact-form > textarea {
     height: 10rem;
+    
+    
 }
 
 /* Targets the send message button */
@@ -401,15 +391,23 @@ hr
     text-align: center;
     font-size: 1.2rem;
     font-weight: 600;
-    background-color: rgb(0, 61, 165);
+    background-color: rgb(72, 68, 3);
     border: .2rem solid white;
     color: white;
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    
+}
+.send-message-button:hover {
+    /* Add styles for the button on hover */
+    background-color: #3f51b5;
+    box-shadow: 0 0 10px #010416;
 }
 
 
+/*-------------------------------------------------------------------------Location Map------------------------------------------------------------ */
 
-/* Location Map */
+
 #location label {
     color: white;
 }
@@ -482,12 +480,10 @@ background-color: white;
         padding-left: 0;
         margin-top: 360px;
     } 
-
-
     
 }
 
-#dog-training
+
     /* For Mobile View */
 @media screen and (max-width: 480px) {
  
@@ -547,28 +543,7 @@ background-color: white;
         left: 0;
     }
 
-    #dog-training {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
-    }
 
-    .left-left-heading, .right-right-heading  {
-        width: inherit;
-    }
-
-    .left-left-heading h2, .right-right-heading h2 {
-        width: 100%;
-        text-align: center;
-    }
-
-    .left-left-heading p, .right-left-heading p {
-        text-align: center;
-        padding: 0 20px;
-        
-       
-        
-    }
 }
 
 * For larger to medium screens size from 1200px wide and down */
