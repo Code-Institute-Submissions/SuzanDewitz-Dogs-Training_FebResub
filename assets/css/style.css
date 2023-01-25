@@ -15,7 +15,7 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
+   
     background-color:#47626b;
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,9 +38,10 @@ h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #191970;
+    color: #FFFAF0;
     
     }
+
 
   /* Set logo Float value to ensure is stays to the left of the screen and increase logo size */
 
@@ -179,7 +180,7 @@ h1, h2 {
 
 .card {
     border: none;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     display: grid;
   align-items: center;
@@ -211,7 +212,7 @@ li {
     margin-bottom: 10px;
     border: 2px solid #4CAF50;
     padding: 20px;
-    background-color: #f2f2f2;
+    background-color:#b5c3c7;
     border-radius: 5px;
     box-shadow: 3px 3px 3px #888888;
     transition: all 0.3s;
@@ -229,6 +230,7 @@ li {
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 3;
+    font-size: 15px;
     
 }
 p {
@@ -255,14 +257,21 @@ p {
     background-color: #f1f1f1;
     border: 1px solid #ccc;
     box-shadow: 2px 2px 2px #ccc;
+
+    
   }
   
-  .opening-hours, .contact-info {
-    background-color: #f1f1f1;
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 2px #ccc;
-    padding: 10px;
-    margin: 10px;
+  .opening-hours, 
+  .contact-info {
+    background-color:#a8b1b4;
+    border: 1px solid: #708090;
+    box-shadow: 2px 2px 2px #008080;
+    padding: 2px;
+    margin: 3px;
+    display: flex
+    
+    
+   
   }
   
   /*------------------------------------------------------------- gallery-------------------------------------------------------------------*/
@@ -414,8 +423,10 @@ hr
 
 
 #location {
-    width: 85%;
+    width: 65%;
+    height: 40%;
     padding-bottom: 2em;
+    background-color: #29383d;
 }
 
 iframe {
@@ -457,6 +468,9 @@ footer {
     color: #3a3a3a;
     text-align: center;
     color: black;
+    padding-left: 30%;
+    margin: 2%;
+
 background-color: white;    
 }
 /*---------------------------------------------------------------------- Media queries *--------------------------------------------------------------------------------------------------------/
@@ -468,6 +482,9 @@ background-color: white;
         padding-left: 0;
         margin-top: 360px;
     } 
+
+
+    
 }
 
 #dog-training
@@ -491,6 +508,18 @@ background-color: white;
 
      }
   
+}
+/* For small screen sizes below 600px width */
+@media only screen and (max-width: 600px) {
+   .location-info {
+    width: 100%; /* i have to adjust desired width */
+    height: auto;
+   }
+
+   .container p {
+    width: 100%; /* i have to adjust desired width */
+    height: auto;
+   }
 }
 
     /* For small screen sizes below 800px width */
