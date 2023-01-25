@@ -102,7 +102,19 @@ The website listed nearl most dogs breed that the user can take a look and thick
 
 ![image](https://user-images.githubusercontent.com/114075332/203293543-cb8adaa9-a7d4-4e69-ae2b-fd4e23233f5b.jpg)
 
-
+## User Story 
+ * Testing
+testing of the user story
+User stories
+Goal	execution
+First time visitors should have an fast understanding of the goal of the organisation	The text on the hero image text shows the main purpose.
+First time visitors need to get the information about what we do and why we do it.	Information in a what we do section.
+First time users should have the ability to find our social media links to get more information.	Social media links in the footer.
+First time users should have the ability to ask questions.	Possibility to ask questions with form
+Returning users Should be able to go fast to the event section.	Item in navigation bar to scroll down fast
+Returning users can easily book a event.	Established with the form
+Returning users should find the links to folow us on social media.	Social media links in the footer.
+Returning users should be able ta ask questions or give remarks.	Possible in the form.
 ## Testing
 
 #### HTML

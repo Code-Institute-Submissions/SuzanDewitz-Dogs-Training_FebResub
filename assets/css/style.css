@@ -88,7 +88,7 @@ h1, h2 {
     border-bottom: 2px solid #48D1CC;
     background-color: #2F4F4F;
     font-size: 1.2em;
-    box-shadow: 0px 0px 10px rgb(40, 22, 22);
+    box-shadow: 0px 0px 10px rgb(127, 6, 6);
     transition: all 0.2s ease-in-out;
 }
 
@@ -128,7 +128,7 @@ h1, h2 {
     width: 100%;
     background: url('../images/dogs-image.webp') no-repeat center center;
     background-size: cover;
-   
+   object-fit: cover;
  margin-bottom: 0px;
     margin-block-start: auto;
     /* animates zoom effect on loading page */
@@ -190,7 +190,7 @@ li {
     border: 1px solid black;
     padding: 10px;
     
-    border: 2px solid #4CAF50;
+    border: 2px solid #728a76;
     padding: 20px;
     background-color:#b5c3c7;
     border-radius: 5px;
