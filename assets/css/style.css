@@ -108,7 +108,7 @@ h1, h2 {
 
 #dogs-outer 
 {
-    height: 37.5rem;
+    height: 50.5rem;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -192,12 +192,12 @@ li {
     
     border: 2px solid #719176;
     padding: 30px;
-    background-color:#888888;
-    border-radius: 5px;
+    background-color:#1e3e48;
+    border-radius: 800px;
     box-shadow: 3px 3px 3px #888888;
     transition: all 0.3s;
     overflow: hidden
-    max-width: 100px;
+    max-width: 50px;
     max-height: 500px;
     
     
@@ -229,14 +229,14 @@ p {
    
 }
 .text {
-    color: #001a00;
+    color: #060d06;
     font-family: 'Roboto', sans-serif;
 }
 img {
     width: 20%;
 }
 p {
-    width: 40%;
+    width: 20%;
 }
 
 /*----------------------------------------------------------------------info address------------------------------------*/
