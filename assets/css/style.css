@@ -202,12 +202,14 @@ li {
     
     
     
+    
+    
 }
 
 
 .container img {
-    width: 25%;
-    margin-right: 10px;
+    width: 30%;
+    height: 30%;
 }
 .container p {
     overflow: hidden;
