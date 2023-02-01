@@ -481,58 +481,67 @@ background-color: white;
         
       @media screen and (max-width: 325px) {
         #stasi-photo {
-        padding-left: 0;
-        margin-top: 360px;
+            padding-left: 10%; /* adjust as needed */
+            margin-top: 360px; /* adjust as needed */
     } 
     .location-info {
-        width: 95%;
-}
+        width: 90%; /* adjust this value to a desired width */
+        padding: 0 10%;
       }
-
-    /* For Mobile View */
-@media screen and (max-width: 480px) {
- 
-    #image-container{
- 
+      }
+      .contact-form {
+        max-width: 30%;
+        font-size: 1.2rem;
+      }
+      .form-input {
+        height: 2.5rem;
+        font-size: 1.3rem;
+      }
+      .contact-form label {
+        font-size: 1.3rem;
+      }
+      .send-message-button {
+        width: 60%;
+        font-size: 1.3rem;
+      }
     
-    margin-top: 360px;
-    padding-left: 0;
-    font-size: 1em;
-    }
-
-    .contact-form-section {
         
-        width: 180%;
-        height: 10%;
-        float: left;
-        font-size: 50%;
 
-     }
   
-}
+
 /* For small screen sizes below 600px width */
 @media only screen and (max-width: 600px) {
    .location-info {
     width: 100%; /* i have to adjust desired width */
     height: auto;
    }
-
+   .container {
+    width: 90%; /* adjust as needed */
+    margin: 0 auto; /* center the container */
+  }
    .container p {
     width: 100%; /* i have to adjust desired width */
     height: auto;
    }
-}
+   .contact-form {
+    max-width: 70%;
+    font-size: 1rem;
+    }
+    .form-input {
+    height: 2rem;
+    font-size: 1.1rem;
+    }
+    .contact-form label {
+    font-size: 1.1rem;
+    }
+    .send-message-button {
+    width: 60%;
+    font-size: 1.1rem;
+    }
+    }
 
-    /* For small screen sizes below 800px width */
-    @media screen and (max-width: 800px) {
 
-   
-        #stasi-photo {
-           
-            padding: 20%;
-            margin-bottom: 100px;
-        }
-        }
+    
 
   /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
@@ -547,11 +556,33 @@ background-color: white;
     #cover-text {
         left: 0;
     }
+    #cover-text {
+        left: 0;
+    }
+    .contact-form {
+        max-width: 50%;
+        font-size: 1.2rem;
+        }
+        .form-input {
+        height: 2.5rem;
+        font-size: 1.3rem;
+        }
+        .contact-form label {
+        font-size: 1.3rem;
+        }
+        .send-message-button {
+        width: 40%;
+        font-size: 1.3rem;
+        }
+        }
 
 
-}
 
-* For larger to medium screens size from 1200px wide and down */
+
+
+
+
+/* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #dog-training {
         width: 65%;
@@ -559,12 +590,6 @@ background-color: white;
         margin: 0 auto;
     }
   
-    #left-left, #right-right {
-        width: 100%;
-        float: left;
-        padding: 0;
-      
-    }
     
     #times > div {
         width: 100%;
@@ -576,4 +601,7 @@ background-color: white;
     hr {
         display: none;
     }
-}
+    
+      }
+
+
