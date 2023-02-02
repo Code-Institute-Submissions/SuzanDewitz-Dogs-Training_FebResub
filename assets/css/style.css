@@ -267,31 +267,6 @@ p {
   }
   
   /*------------------------------------------------------------- gallery-------------------------------------------------------------------*/
-#photos
-{
-    clear: both;
-    line-height: 2;
-    column-count: 3;
-    
-}
-#photos > img 
-{
-   width: 150%; 
-}
-
-hr 
-{
-    width: 100%;
-    margin: 10px 0;
-}
-
-
-
-
-
-    /* --------------------------------------------------------------STASI PHOTO FOR PHOTO PAGE STYLING-----------------------------------------------------------*/
-
-    /* stasi-photo */
 
     #stasi-photo {
        
@@ -302,7 +277,7 @@ hr
     }
     
     .image-container {
-        margin-left: -50px;
+        margin-left: auto;
         width: 500px;
         height: 500px;
         overflow: hidden;
@@ -327,7 +302,12 @@ hr
         color: white;
     }
     
-    
+    hr 
+{
+    width: 100%;
+    margin: auto;
+}
+
     
     
     
@@ -481,11 +461,11 @@ background-color: white;
         
       @media screen and (max-width: 325px) {
         #stasi-photo {
-            padding-left: 10%; /* adjust as needed */
-            margin-top: 360px; /* adjust as needed */
+            padding-left: 10%; 
+            margin: 2%;
     } 
     .location-info {
-        width: 90%; /* adjust this value to a desired width */
+        width: 90%; 
         padding: 0 10%;
       }
       }
@@ -512,15 +492,15 @@ background-color: white;
 /* For small screen sizes below 600px width */
 @media only screen and (max-width: 600px) {
    .location-info {
-    width: 100%; /* i have to adjust desired width */
+    width: 100%; 
     height: auto;
    }
    .container {
-    width: 90%; /* adjust as needed */
-    margin: 0 auto; /* center the container */
+    width: 90%; 
+    margin: 0 auto; 
   }
    .container p {
-    width: 100%; /* i have to adjust desired width */
+    width: 100%; 
     height: auto;
    }
    .contact-form {
@@ -584,19 +564,8 @@ background-color: white;
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-    #dog-training {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-  
+
     
-    #times > div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 20%;
-    }
 
     hr {
         display: none;
