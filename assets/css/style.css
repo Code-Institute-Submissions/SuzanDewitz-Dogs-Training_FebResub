@@ -174,7 +174,7 @@ main {
 li {
     list-style-type: none;
   }
-     img {
+  img {
     
     height: 30%;
     width: 20%;
@@ -267,63 +267,62 @@ p {
   }
   
   /*------------------------------------------------------------- gallery-------------------------------------------------------------------*/
-
-    #stasi-photo {
+ 
+  
+  #stasi-photo {
        
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .image-container {
-        margin-left: -50px;
-        width: 500px;
-        height: 500px;
-        overflow: hidden;
-        position: relative;
-        text-align: center;
-    }
-    
-    .image-container img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    
-    .image-container h2 {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: 0;
-        padding: 10px;
-        background-color: rgba(0, 0, 0, 0.6);
-        color: white;
-    }
-    
-    hr 
-{
-    width: 100%;
-    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
-    
-    
-    
+.image-container {
+    margin-left: -50px;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-container h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+hr 
+{
+width: 100%;
+margin: 10px 0;
+}
+
+
 
 /*---------------------------------------------------------------- CONTACT FORM STYLING--------------------------------------------------------------- */
 
 /* Contact form styling is shown below, this targets the form on the contact.html page */
 
 .contact-form {
-    margin: 5% auto;
+    margin: auto;
     background-color:#29383d;
     max-width: 30%;
     padding: 3rem;
     color: white;
     border-radius: 2rem;
-    margin-left: 30%;
+    clear: both;
 
 }
 
@@ -460,15 +459,18 @@ background-color: white;
 /* For Mobile View */
         
       @media screen and (max-width: 325px) {
-        #stasi-photo {
-            padding-left: 10%; /* adjust as needed */
-            margin-top: 360px; /* adjust as needed */
+        
+    .image-container {
+                width: 90%;
+                height: 90px;
+                
+            }
     } 
     .location-info {
-        width: 90%; /* adjust this value to a desired width */
+        width: 90%; 
         padding: 0 10%;
       }
-      }
+      
       .contact-form {
         max-width: 30%;
         font-size: 1.2rem;
@@ -485,7 +487,11 @@ background-color: white;
         font-size: 1.3rem;
       }
     
-        
+         .image-container {
+        width: 100%;
+        height: 200px;
+        margin-left: 0;
+    }
 
   
 
@@ -520,7 +526,11 @@ background-color: white;
     }
     }
 
-
+    .image-container {
+        width: 200px;
+        height: 200px;
+        margin-left: 0;
+    }
     
 
   /* For medium screen sizes from 950px wide and down */
@@ -555,11 +565,23 @@ background-color: white;
         font-size: 1.3rem;
         }
         }
+        .image-container {
+            width: 500px;
+            height: 500px;
+            margin-left: -50px;
+        }
 
 
 
-
-
+        .image-container {
+            margin-left: -50px;
+            width: 500px;
+            height: 500px;
+            overflow: hidden;
+           position: relative;
+            text-align: center;
+            clear: both;
+        }
 
 
 /* For larger to medium screens size from 1200px wide and down */
