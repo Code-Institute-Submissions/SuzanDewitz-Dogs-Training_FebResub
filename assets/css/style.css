@@ -275,6 +275,7 @@ p {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    clear: both;
 }
 
 .image-container {
