@@ -268,18 +268,6 @@ p {
   
   /*------------------------------------------------------------- gallery-------------------------------------------------------------------*/
 
-#photos > img 
-{
-   width: 150%; 
-}
-
-hr 
-{
-    width: 100%;
-    margin: 10px 0;
-}
-
-
     #stasi-photo {
        
         display: flex;
@@ -576,19 +564,9 @@ background-color: white;
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-    #dog-training {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-  
+   
     
-    #times > div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 20%;
-    }
+  
 
     hr {
         display: none;
