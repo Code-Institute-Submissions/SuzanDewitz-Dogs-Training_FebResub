@@ -193,15 +193,21 @@ p {
 }
 /*------------------------------------------------------------- gallery-------------------------------------------------------------------*/
 #stasi-photo {
-    clear:both;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    clear: both;
 }
+
 .image-container {
     padding: 20px;
     clear: both;
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
 }
 .image-container img {
     width: 100%;
@@ -209,6 +215,10 @@ p {
     object-fit: cover;
 }
 .image-container h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
     margin: 0;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.6);
@@ -218,6 +228,7 @@ hr {
     width: 100%;
     margin: 10px 0;
 }
+
 
 /*---------------------------------------------------------------- CONTACT FORM STYLING--------------------------------------------------------------- */
 /* Contact form styling is shown below, this targets the form on the contact.html page */
