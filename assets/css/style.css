@@ -502,6 +502,7 @@ background-color: white;
    .container p {
     width: 100%; /* i have to adjust desired width */
     height: auto;
+    font-size: 12px;
    }
    .contact-form {
     max-width: 70%;
