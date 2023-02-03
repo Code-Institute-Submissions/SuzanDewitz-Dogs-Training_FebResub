@@ -1,88 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
-
-
-
-
-
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
-
-
 /*Font family for body element */
-
-
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    background-color:#47626b;
+    background-color: #47626b;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
-
-
 /* HEADINGS AND LOGO STYLING */
-
 header {
     height: 2rem;
     position: sticky;
-    }
-
-h1, h2 {
+}
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     color: #FFFAF0;
-    
-    }
-
-
-  /* Set logo Float value to ensure is stays to the left of the screen and increase logo size */
-
+}
+/* Set logo Float value to ensure is stays to the left of the screen and increase logo size */
 #logo {
     float: left;
     font-size: 2.5rem;
     margin: .5rem 2rem;
     display: flex;
     align-items: center;
-    
-    
-    
-    
 }
 /* navigation links */
-
 #menu {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap:wrap;
-    flex-direction:row-reverse;
-    
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
 }
-
 #menu li {
     list-style-type: none;
     padding: 10px;
     margin: 0px;
     display: inline-block;
-    font-size: 1.3rem; 
-    
+    font-size: 1.3rem;
 }
-#menu, #logo {
+#menu,
+#logo {
     line-height: 100px;
     color: white;
-    
 }
 #menu a {
     text-decoration: none;
     color: inherit;
     text-align: center;
-    
 }
 #menu a:hover {
     border-bottom: 2px solid #48D1CC;
@@ -91,45 +64,31 @@ h1, h2 {
     box-shadow: 0px 0px 10px rgb(127, 6, 6);
     transition: all 0.2s ease-in-out;
 }
-
-
-
 .active {
     border-bottom: 2px solid #48D1CC;
     background-color: #2F4F4F;
     font-size: 1.2em;
     box-shadow: 0px 0px 10px rgb(52, 28, 28);
 }
-
-
-
-
 /* dogs image cover text*/
-
-#dogs-outer 
-{
+#dogs-outer {
     height: 50.5rem;
     width: 100%;
     overflow: hidden;
     position: relative;
- 
- 
 }
-#cover-text, #cover-text h3
-{
-   height: 600px;
+#cover-text,
+#cover-text h3 {
+    height: 600px;
     width: 100%;
-   }
-
-
-#dogs-image
-{
+}
+#dogs-image {
     height: 800px;
     width: 100%;
     background: url('../images/dogs-image.webp') no-repeat center center;
     background-size: cover;
-   object-fit: cover;
- margin-bottom: 0px;
+    object-fit: cover;
+    margin-bottom: 0px;
     margin-block-start: auto;
     /* animates zoom effect on loading page */
     animation-name: dogs-zoom;
@@ -139,199 +98,148 @@ h1, h2 {
 }
 /* creates the level of zoom for dogs image */
 @keyframes dogs-zoom {
-    from{
+    from {
         transform: scale(1.4);
     }
-    to{
+    to {
         transform: scale(1.1);
     }
 }
-  /*------------------------------------------------------------main page --------------------------------------------------------------------------*/  
- 
-#breeds 
-#Care
-#training  {
+/*------------------------------------------------------------main page --------------------------------------------------------------------------*/
+#breeds #Care #training {
     background-color: lightgray;
     text-align: center;
     padding-top: 100px;
-    
 }
-
-
 .card {
     border: none;
     padding: 10px;
     text-align: center;
     display: grid;
-  align-items: center;
-  border-radius: 50%/30%;
+    align-items: center;
+    border-radius: 50%/30%;
 }
-
 main {
     display: flex;
-    
 }
 li {
     list-style-type: none;
-  }
-  img {
-    
+}
+img {
     height: 30%;
     width: 20%;
     border-radius: 5px;
-    
 }
-
-
 .container {
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
-    padding: 10px;
-    
     border: 2px solid #719176;
-    padding: 30px;
-    background-color:#1e3e48;
+    padding: 20px;
+    background-color: #1e3e48;
     border-radius: 800px;
-    
-    transition: all 0.3s;
-    overflow: hidden
-    max-width: 50px;
-    max-height: 500px; 
+    box-shadow: 3px 3px 3px #888888;
+    overflow: hidden max-width: 50px;
 }
-
-
 .container img {
     width: 30%;
     height: 30%;
+    padding: 20px;
 }
 .container p {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    font-size: 15px;
-    
+    font-size: 1.2em;
+    padding: 10px;
+    line-height: 1em;
+    margin-bottom: 3em;
+    text-align: center;
 }
 p {
     text-align: center;
-    
+    margin: 0px 16px;
     font-weight: bold;
-   color: black;
-   font-size: 16px;
-   font-family: oswald, sans-serif;
-   text-align: left;
-   display: block;
-   width: 20%;
-   line-height: 1.1;
-   
+    color: black;
+    font-size: 20px;
+    font-family: oswald, sans-serif;
+    text-align: left;
+    display: block;
 }
 .text {
     color: #060d06;
     font-family: 'Roboto', sans-serif;
 }
-
-
+img {
+    width: 20%;
+}
+p {
+    width: 20%;
+}
 /*----------------------------------------------------------------------info address------------------------------------*/
-
 .location-info {
     background-color: #f1f1f1;
     border: 1px solid #ccc;
     box-shadow: 2px 2px 2px #ccc;
-   
-   
     max-width: 85%;
     margin: 0 auto;
-  }
-  
-  .opening-hours, 
-  .contact-info {
-    background-color:#a8b1b4;
+}
+.opening-hours,
+.contact-info {
+    background-color: #a8b1b4;
     border: 1px solid: #708090;
     box-shadow: 2px 2px 2px #008080;
     padding: 2px;
     margin: 3px;
-    display: flex
-    
-    
-   
-  }
-  
-  /*------------------------------------------------------------- gallery-------------------------------------------------------------------*/
- 
-  
-  #stasi-photo {
-       
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: baseline;
+}
+/*------------------------------------------------------------- gallery-------------------------------------------------------------------*/
+#stasi-photo {
+    clear:both;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+.image-container {
+    padding: 20px;
     clear: both;
 }
-
-.image-container {
-    margin-left: -50px;
-    width: 500px;
-    height: 500px;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-}
-
 .image-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
 .image-container h2 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
     margin: 0;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
 }
-
-hr 
-{
-width: 100%;
-margin: 10px 0;
+hr {
+    width: 100%;
+    margin: 10px 0;
 }
-
-
-
 /*---------------------------------------------------------------- CONTACT FORM STYLING--------------------------------------------------------------- */
-
 /* Contact form styling is shown below, this targets the form on the contact.html page */
-
 .contact-form {
     margin: auto;
-    background-color:#29383d;
+    background-color: #29383d;
     max-width: 30%;
     padding: 3rem;
     color: white;
     border-radius: 2rem;
     clear: both;
-
 }
-
 /* Targets the for contact form  */
-
 .contact-form h2 {
     text-align: center;
     color: white;
     margin-bottom: 2rem;
     font-size: 1rem;
-    
 }
-
 /* Targets the inputs on the contact form */
-
 .form-input {
     width: 100%;
     height: 2rem;
@@ -339,92 +247,61 @@ margin: 10px 0;
     font-weight: 400;
     margin: 1rem;
     border-radius: .25rem;
-    
 }
-
 /* Targets the labels for the form inputs */
-
-.contact-form  label {
+.contact-form label {
     font-size: 1.2rem;
     padding: 1rem;
-    
 }
-
 /* Targets the textarea form input */
-
-.contact-form > textarea {
+.contact-form>textarea {
     height: 10rem;
-    
-    
 }
-
 /* Targets the send message button */
-
 .send-message-button {
     margin: 1rem;
-    border-radius: .25rem;
+    border-radius: 0.25rem;
     padding: 1rem;
-    width: 50%;
     text-align: center;
-    font-size: 1.2rem;
     font-weight: 600;
     background-color: rgb(72, 68, 3);
-    border: .2rem solid white;
+    border: 0.2rem solid white;
     color: white;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
-    
+    width: fit-content;
 }
 .send-message-button:hover {
     /* Add styles for the button on hover */
     background-color: #3f51b5;
     box-shadow: 0 0 10px #010416;
 }
-
-
 /*-------------------------------------------------------------------------Location Map------------------------------------------------------------ */
-
-
 #location label {
     color: white;
 }
-
 #location-container {
     display: flex;
     justify-content: center;
-    margin-left: 5%;
-    
 }
-
-
 #location {
     width: 65%;
     height: 40%;
     padding-bottom: 2em;
     background-color: #29383d;
 }
-
 iframe {
     margin: 20px 0px;
     width: 100%;
-    
 }
-
 /*-----------------------------------------------------------------------social networks networks-------------------------------------------------------------*/
-
-
-
-
-.social-networks{
+.social-networks {
     text-align: center;
-
 }
-
-.social-networks li{
+.social-networks li {
     display: inline;
 }
-
-.social-networks i{
+.social-networks i {
     font-size: 160%;
     margin: 2%;
     padding: 5%;
@@ -433,7 +310,6 @@ iframe {
     padding: 10px;
     border-radius: 50%;
 }
-
 /* footer */
 footer {
     height: 150px;
@@ -445,101 +321,125 @@ footer {
     color: black;
     padding-left: 30%;
     margin: 2%;
-
-background-color: white;    
+    background-color: white;
 }
 /*---------------------------------------------------------------------- Media queries *--------------------------------------------------------------------------------------------------------/
-
 /* For Mobile View */
-        
-      @media screen and (max-width: 325px) {
-     
-    .image-container {
-                width: 90%;
-                height: 90px;
-                
-            }
-    } 
-    .location-info {
-        width: 90%; 
-        padding: 0 10%;
-      }
-      
-      .contact-form {
-        max-width: 30%;
-        font-size: 1.2rem;
-      }
-      .form-input {
-        height: 2.5rem;
-        font-size: 1.3rem;
-      }
-      .contact-form label {
-        font-size: 1.3rem;
-      }
-      .send-message-button {
-        width: 60%;
-        font-size: 1.3rem;
-      }
-    
-         .image-container {
-        width: 100%;
-        height: 200px;
-        margin-left: 0;
+@media screen and (max-width: 325px) {
+    .image-container h2 {
+        padding: 5px 0;
+        font-size: 1em;
     }
-
-  
-
-/* For small screen sizes below 600px width */
-@media only screen and (max-width: 600px) {
-   .location-info {
-    width: 100%; /* i have to adjust desired width */
-    height: auto;
-   }
-   .container {
-    width: 80%; /* adjust as needed */
-    margin: 0 auto; /* center the container */
-  }
-   .container p {
-    width: 100%; /* i have to adjust desired width */
-    height: auto;
-    font-size: 12px;
-   }
-   .contact-form {
-    max-width: 70%;
-    font-size: 1rem;
+    .opening-hours p,
+    .contact-info p {
+        font-size: 0.8em;
     }
-    .form-input {
-    height: 2rem;
-    font-size: 1.1rem;
-    }
-    .contact-form label {
-    font-size: 1.1rem;
+    .container {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #719176;
+        padding: 10px;
+        background-color: #1e3e48;
+        border-radius: 800px;
+        box-shadow: 3px 3px 3px #888888;
+        overflow: hidden max-width: 50px;
     }
     .send-message-button {
-    width: 60%;
-    font-size: 1.1rem;
+        width: 100%;
+        font-size: .6em;
     }
-    }
-
-    .image-container {
-        width: 200px;
-        height: 200px;
-        margin-left: 0;
-    }
-
     
     
-
-  /* For medium screen sizes from 950px wide and down */
+}
+.location-info {
+    width: 90%;
+}
+.contact-form {
+    max-width: 55%;
+    margin: auto;
+    font-size: 1.2rem;
+}
+.form-input {
+    height: 2.5rem;
+    font-size: 1.3rem;
+}
+.contact-form label {
+    font-size: 1.3rem;
+}
+.image-container {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+/* For small screen sizes below 600px width */
+@media only screen and (max-width: 600px) {
+    .location-info {
+        width: 100%;
+        /* i have to adjust desired width */
+        height: auto;
+    }
+    .container {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #719176;
+        padding: 10px;
+        background-color: #1e3e48;
+        border-radius: 800px;
+        box-shadow: 3px 3px 3px #888888;
+        overflow: hidden max-width: 50px;
+    }
+    .container img {
+        width: 50%;
+        height: 50%;
+        padding: 20px;
+    }
+    .opening-hours p,
+    .contact-info p {
+        font-size: 1em;
+    }
+    .container {
+        width: 90%;
+        /* adjust as needed */
+        margin: 0 auto;
+        /* center the container */
+    }
+    
+    .send-message-button {
+        width: 110%;
+        font-size: 0.6em;
+    }
+    .container p {
+        width: 80%;
+        height: auto;
+        padding: 20px;
+    }
+    .contact-form {
+        max-width: 70%;
+        font-size: 1rem;
+    }
+    .form-input {
+        height: 2rem;
+        font-size: 1.1rem;
+    }
+    .contact-form label {
+        font-size: 1rem;
+    }
+}
+/* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
-
     #menu {
         clear: left;
         float: left;
-        clear:both;
+        clear: both;
         margin-bottom: 20px;
         line-height: 25px;
-    } 
+    }
     #cover-text {
         left: 0;
     }
@@ -549,48 +449,22 @@ background-color: white;
     .contact-form {
         max-width: 50%;
         font-size: 1.2rem;
-        }
-        .form-input {
+    }
+    .form-input {
         height: 2.5rem;
         font-size: 1.3rem;
-        }
-        .contact-form label {
+    }
+    .contact-form label {
         font-size: 1.3rem;
-        }
-        .send-message-button {
-        width: 40%;
-        font-size: 1.3rem;
-        }
-        }
-        .image-container {
-            width: 500px;
-            height: 500px;
-            margin-left: -50px;
-        }
-
-
-
-        .image-container {
-            margin-left: -50px;
-            width: 500px;
-            height: 500px;
-            overflow: hidden;
-           position: relative;
-            text-align: center;
-            clear: both;
-        }
-        
-
+    }
+    .send-message-button {
+        width: 50%;
+        font-size: 1rem;
+    }
+}
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-   
-    
-  
-
     hr {
         display: none;
     }
-    
-      }
-
-
+}
