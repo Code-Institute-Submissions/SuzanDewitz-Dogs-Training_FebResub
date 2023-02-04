@@ -127,7 +127,6 @@ li {
     list-style-type: none;
 }
 img {
-    
     border-radius: 5px;
 }
 .container {
@@ -142,8 +141,6 @@ img {
     background-color: #1e3e48;
     border-radius: 800px;
     box-shadow: 3px 3px 3px #888888;
-    overflow: hidden;
-     max-width: 50px;
 }
 .container img {
     width: 30%;
@@ -155,23 +152,19 @@ img {
     padding: 10px;
     line-height: 1em;
     margin-bottom: 3em;
-    
 }
 p {
-    text-align: center;
     margin: 0px 16px;
     color: black;
-    font-size: 20px;
     font-family: oswald, sans-serif;
     text-align: left;
     display: block;
     width: 50%;
 }
 .text {
-    color: #060d06;
+    color: #ffffff;
     font-family: 'Roboto', sans-serif;
 }
-
 /*----------------------------------------------------------------------info address------------------------------------*/
 .location-info {
     background-color: #f1f1f1;
@@ -200,7 +193,6 @@ p {
     justify-content: center;
     clear: both;
 }
-
 .image-container {
     padding: 20px;
     clear: both;
@@ -210,18 +202,18 @@ p {
     position: relative;
     text-align: center;
 }
+.caption {
+    margin: auto;
+    text-align: center;
+}
 .image-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 .image-container h2 {
-    position: absolute;
+    position: sticky;
     bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0;
-    padding: 10px;
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
 }
@@ -229,18 +221,16 @@ hr {
     width: 100%;
     margin: 10px 0;
 }
-
-
 /*---------------------------------------------------------------- CONTACT FORM STYLING--------------------------------------------------------------- */
 /* Contact form styling is shown below, this targets the form on the contact.html page */
 .contact-form {
     margin: auto;
     background-color: #29383d;
-    max-width: 30%;
     padding: 2rem;
     color: white;
     border-radius: 2rem;
     clear: both;
+    width: 30%;
 }
 /* Targets the for contact form  */
 .contact-form h2 {
@@ -271,6 +261,7 @@ hr {
 /* Targets the send message button */
 .send-message-button {
     margin: 1rem;
+    font-size: 1em;
     border-radius: 0.25rem;
     padding: 1rem;
     text-align: center;
@@ -300,6 +291,7 @@ hr {
     height: 40%;
     padding-bottom: 2em;
     background-color: #29383d;
+    margin-top: 20px 0;
 }
 iframe {
     margin: 20px 0px;
@@ -337,6 +329,9 @@ footer {
 /*---------------------------------------------------------------------- Media queries *--------------------------------------------------------------------------------------------------------/
 /* For Mobile View */
 @media screen and (max-width: 325px) {
+    #logo {
+        font-size: 2rem;
+    }
     .image-container h2 {
         padding: 2px 0;
         font-size: 1em;
@@ -345,27 +340,19 @@ footer {
     .contact-info p {
         font-size: 0.8em;
     }
-
-.location-info {
-    width: 90%;
-}
-.contact-form {
-    
-    margin: auto;
-    
-}
-.form-input {
-    height: 2.5rem;
-    font-size: 1.3rem;
-}
-.contact-form label {
-    font-size: 1.3rem;
-}
-.image-container {
-    width: 80%;
-    height: 80%;
-    margin: auto;
-}
+    .location-info {
+        width: 90%;
+    }
+    .contact-form {
+        margin: auto;
+    }
+    .form-input {
+        height: 2.5rem;
+        font-size: 1.3rem;
+    }
+    .contact-form label {
+        font-size: 1.3rem;
+    }
 }
 /* For small screen sizes below 600px width */
 @media only screen and (max-width: 600px) {
@@ -387,19 +374,6 @@ footer {
         justify-content: space-between;
         padding: 20px;
     }
-    .container {
-        overflow: hidden;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        border: 2px solid #719176;
-        padding: 10px;
-        background-color: #1e3e48;
-        border-radius: 800px;
-        box-shadow: 3px 3px 3px #888888;
-        max-width: 50px;
-    }
     .container img {
         width: 50%;
         height: 50%;
@@ -407,22 +381,22 @@ footer {
     }
     .opening-hours p,
     .contact-info p {
-        font-size: 1em;
-        
+        font-size: 0.8em;
+        padding: 5px;
     }
     .container {
         width: 90%;
-         margin: 0 auto;
-    
+        margin: 0 auto;
     }
     .container p {
         width: 80%;
         height: auto;
         padding: 20px;
     }
-    .contact-form {
-        max-width: 70%;
-        font-size: 1rem;
+    .image-container {
+        width: 80%;
+        height: 80%;
+        margin: auto;
     }
     .form-input {
         height: 2rem;
@@ -431,13 +405,10 @@ footer {
     .contact-form label {
         font-size: 1rem;
     }
-        
     .send-message-button {
         width: 100%;
-        font-size: 1rem;
-        
+        font-size: 0.8em;
     }
-
 }
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
@@ -451,23 +422,14 @@ footer {
     #cover-text {
         left: 0;
     }
-    
     .contact-form {
-        max-width: 50%;
-        font-size: 1.2rem;
+        font-size: 1.5em;
+        width: 60%
     }
     .container {
-        overflow: hidden;
-        display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        border: 2px solid #719176;
         padding: 10px;
-        background-color: #1e3e48;
-        border-radius: 800px;
-        box-shadow: 3px 3px 3px #888888; 
-        max-width: 50px;
     }
     .form-input {
         height: 2.5rem;
@@ -475,17 +437,5 @@ footer {
     }
     .contact-form label {
         font-size: 1.3rem;
-    }
-}
-/* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-    .send-message-button {
-        width: 100%;
-        font-size: 1rem;
-        
-    }
-    
-    hr {
-        display: none;
     }
 }
