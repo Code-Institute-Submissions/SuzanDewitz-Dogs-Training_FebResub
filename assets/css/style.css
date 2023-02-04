@@ -91,7 +91,6 @@ h2 {
     object-fit: cover;
     margin-bottom: 0px;
     margin-block-start: auto;
-    /* animates zoom effect on loading page */
     animation-name: dogs-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -291,7 +290,7 @@ hr {
     height: 40%;
     padding-bottom: 2em;
     background-color: #29383d;
-    margin-top: 20px 0;
+    
 }
 iframe {
     margin: 20px 0px;
@@ -329,6 +328,7 @@ footer {
 /*---------------------------------------------------------------------- Media queries *--------------------------------------------------------------------------------------------------------/
 /* For Mobile View */
 @media screen and (max-width: 325px) {
+  
     #logo {
         font-size: 2rem;
     }
@@ -409,16 +409,11 @@ footer {
         width: 100%;
         font-size: 0.8em;
     }
+  
 }
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
-    #menu {
-        clear: left;
-        float: left;
-        clear: both;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
+   
     #cover-text {
         left: 0;
     }
@@ -438,4 +433,15 @@ footer {
     .contact-form label {
         font-size: 1.3rem;
     }
+  
+}
+/* For larger to medium screens size from 1200px wide and down */
+    @media screen and (max-width: 1200px) {
+        #menu {
+            float: left;
+            clear: both;
+            margin-bottom: 20px;
+            line-height: 25px;
+        }
+
 }
