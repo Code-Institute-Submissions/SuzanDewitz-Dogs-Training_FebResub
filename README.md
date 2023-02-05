@@ -5,7 +5,7 @@
  The website also includes a navigation bar at the top with links to the "Homepage", "Gallery", and "Contact" 
  <br>pages, as well as an opening hours section. The website uses CSS styles and Google Fonts to create a visually appealing design.
 
- ![Homw page](./assets/images/homepage.jpg)
+ ![Home page](./assets/images/homepage.jpg)
 
  # INITIAL IDEA CONCEPT
  * The initial idea concept of the website appears to be promoting a Pitbull breeding business located in Gaiberg, Germany.<br>
@@ -13,35 +13,36 @@
    The website also mentions the benefits of owning a pet, such as improving physical and mental health, and encourages people to choose their perfect companion.
 
 # CONTENTS 
-* UX/UI
+##  UX/UI
 
-  * USERSTORIES
-     * As user 
-     * As owner
+  ### USERSTORIES
 
-* FEATURES
+   * As user 
+   * As owner
+## WIREFRAMES
+  * FEATURES
   * DESIGN
-* TESTING
+## TESTING
 
   * DEVICES
   * VALIDATORS
   * LIGHTHOUSE
   * ACCESSIBILITY
-* SOLVED BUGS AND ERRORS
+## SOLVED BUGS AND ERRORS
 
    * UNSOLVED BUGS AND ERRORS
    * FUNCTIONALITY
-* TECHNOLOGIES USED
+## TECHNOLOGIES USED
 
    * PROGRAMS USED
-* DEPLOYMENT
+## DEPLOYMENT
    * Development 
 
-* CREDITS
+## CREDITS
 
 
-* CODE
-* ACKNOWLEDGEMENTS
+## CODE
+## ACKNOWLEDGEMENTS
 
 
  # UX/UI 
@@ -93,13 +94,111 @@
  <br>
  <br>
 
-# FEATURES 
+# WIREFRAMES 
+
+* wireframes were created using https://balsamiq.cloud/ during the initial UI design phase:
 <br>
+<br>
+
+ ![Home page](./assets/images/wireframe.jpg)
+
+<br>
+<br>
+
+   ## FEATURES 
+
+   <br>
 
 * The site consists of:
 
-  * 3 main pages, HOME, CONTACT, GALLERY, 
+ * 3 main pages, HOME, CONTACT, GALLERY, 
   * Each page will have the same body layout, HEADER (TITLE), NAVBAR, MAIN CONTENT (TEXT AND IMAGES) and FOOTER (SOCIAL MEDIA ICONS/LINKS, AND LOCATION)
   
 Navigation bar:
 
+## DESIGN  
+### Home
+* The HTML (index.html) code  for a webpage that provides information about dog breeders in Gaiberg, Germany.
+* The <!DOCTYPE html> declaration is used to specify the HTML version used in the document.
+*  The <html> tag sets the language to English using the "lang" attribute.
+ * The <head> section contains metadata about the page such as the character encoding, viewport, description, and keywords, which are used by search engines. 
+ * The <head> section also links to CSS stylesheets and Google fonts to provide the look and feel of the page. 
+ * The <body> section contains the main content of the page, including the header, navigation menu, and sections <br>for different aspects of dog care and training. Each section has a heading, unordered list, and an accompanying image and text description. <br>The page includes a footer with information about the location and opening hours of the dog breeders. 
+
+
+<br>
+<br>
+
+ *  Navigation bar:
+ ![Home page](./assets/images/navigationbar.jpg)
+
+  <br>
+<br>
+ 
+ *  body:
+ ![body page](./assets/images/body.jpg)
+
+<br>
+<br>
+
+
+ ![opening page](./assets/images/opening%20hours.jpg)
+
+ <br>
+<br>
+
+  *  Footer
+ ![footer page](./assets/images/footer.jpg)
+
+<br>
+<br>
+
+
+ 
+
+
+### gallery
+
+* The HTML(gallery.html) code is structure of a website that features a dog training center called "Pitbull Breeders Gaiberg." 
+* The website has a header with a logo and a navigation menu with links to three pages, including "Contact," "Gallery," and "Homepage." 
+* In the "Gallery" section, there are eight images of dogs with captions related to dog training, each with its own description. 
+* The website also includes a Google Maps integration to display the location of the training center and a footer with social media links.
+
+
+
+<br>
+<br>
+
+ ![gallery page](./assets/images/gallery.jpg)
+ 
+<br>
+<br>
+
+
+### contact 
+* The HTML(contact.html)  code for a "Contact" page for a website about pitbull breeders in Gaiberg, Germany. 
+* The page features a contact form for users to fill out and submit, including fields for their first and last name, email address, and a message. 
+* The page also includes links to the homepage and a gallery page, as well as social media links for Facebook, Instagram, Twitter, and YouTube.
+* A Google Maps embed is included to show the location of the breeders in Gaiberg. The page uses HTML, CSS, and some font-awesome icons.
+
+
+<br>
+<br>
+
+ ![contact page](./assets/images/contactpage.jpg)
+
+<br>
+
+* Contact Form:
+
+
+  ![contact page](./assets/images/contactimage.jpg)
+
+
+ * Contact Form:
+*  Form validation requests the user to input the correct information in the input fields, This avoids the user sending illegible text/email.
+
+ ![contact page](./assets/images/contactima.jpg)
+
+<br>
+<br>
