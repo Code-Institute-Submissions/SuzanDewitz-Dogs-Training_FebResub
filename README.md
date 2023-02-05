@@ -28,6 +28,7 @@
   - Navigation bar
   - body
   - Footer
+  - Color 
 
 ## TESTING
 
@@ -42,17 +43,23 @@
 ## TECHNOLOGIES USED
 
    * PROGRAMS USED
+
 ## DEPLOYMENT
+
    * Development 
 
-## CREDITS
+## CREDITS 
 
 
 ## CODE
 ## ACKNOWLEDGEMENTS
 
 
+
+
+
  # UX/UI 
+<br>
 
  * The website "Pitbull Breeders Gaiberg" is a platform for those who are interested in training and caring for dogs, <br>specifically the Pitbull breed. The site offers information on different breeds of dogs, including Labrador Retrievers, German Shepherds, Golden Retrievers, Bulldogs, and Poodles.
 
@@ -102,6 +109,7 @@
  <br>
 
 # WIREFRAMES 
+<br>
 
 * wireframes were created using https://balsamiq.cloud/ during the initial UI design phase:
 <br>
@@ -125,6 +133,8 @@
 
 ## DESIGN  
 ###  Home
+<br>
+
 * The HTML (index.html) code  for a webpage that provides information about dog breeders in Gaiberg, Germany.
 * The <!DOCTYPE html> declaration is used to specify the HTML version used in the document.
 *  The <html> tag sets the language to English using the "lang" attribute.
@@ -132,18 +142,34 @@
  * The <head> section also links to CSS stylesheets and Google fonts to provide the look and feel of the page. 
  * The <body> section contains the main content of the page, including the header, navigation menu, and sections <br>for different aspects of dog care and training. Each section has a heading, unordered list, and an accompanying image and text description. <br>The page includes a footer with information about the location and opening hours of the dog breeders. 
 
+<br>
+<br>
+
+### Color Scheme
+<br>
+
++ The colors used in your dog website are carefully selected to create a visually appealing and cohesive design. The border of the elements has a 2px solid line in a gray-green color (#719176), which provides a clear definition to the elements and draws attention to the content within. The padding of 20px provides a comfortable amount of space between the content and the border. The background color (#1e3e48) is a dark blue-gray, creating a calm and sophisticated atmosphere. The border-radius of 800px gives the elements a soft, rounded edge, adding to the overall aesthetic. The box-shadow with a 3px offset in #888888 provides a subtle, three-dimensional effect that adds depth to the elements. Finally, the text color of #ffffff (white) provides high contrast against the dark background and makes the text easy to read.
+
+![Home page](./assets/images/allcolor.jpg)
+
 
 <br>
 <br>
 
 ### Navigation bar:
+<br>
+
 * The navigation bar in this HTML code is defined within the "header" section and is denoted by the "nav" tag. 
  * It is used to display the different pages or sections within the website, providing a way for users to quickly access the various parts of the site. 
  * The navigation bar consists of an unordered list of items, each represented by an "li" tag. Each "li" tag contains a link, represented by the "a" tag, to a specific page or section. 
  * The "active" class is added to the link for the currently viewed page, providing a visual indication to users about their current location within the site. 
  * The links in the navigation bar are styled using CSS and the font used is "Roboto" from Google fonts.
+<br>
+<br>
 
-+  Hover effect on navigating the menu
+#### Hover effect on navigating the menu
+<br>
+
 1. When the mouse pointer is over the element, the following changes will occur:
 
 2. The bottom border of the element will change to a 2px solid line with the color #48D1CC.
@@ -156,15 +182,16 @@
 
 All the changes will happen gradually over a 0.2 second duration, with a smooth ease-in-out effect.
 
- 
+<br>
+<br>
 
 
  ![Home page](./assets/images/navigationbar.jpg)
 
-  <br>
+<br>
 <br>
  
- ###  body:
+ ### body:
 
  * The body section of the given HTML document contains the main content of the website, including headers, sections, images, and text. 
   * It contains information about dog breeds, dog training, and dog care, organized into distinct sections with respective headers. 
@@ -265,3 +292,70 @@ All the changes will happen gradually over a 0.2 second duration, with a smooth 
 
 ## TESTING 
 
+### Manual Testing
+#### DEVICES
++ I have tested in Chrome, Firefox, and Edge on a Windows computer to test the desktop and mobile versions of the website. 
+ + I have also used Chrome and Firefox on an Android device, and Safari on an iOS device to test the mobile version. 
+ + To ensure the website's functionality, I shared the website with multiple users to get feedback on their experience. They have also tested all internal and external links on the website and confirmed that the contact form requires valid inputs.
+
+ #### Validation
++ There were no errors found on any page using the W3C HTML Validator.
++  HTML (index.html)
+
+ ![index.html](./assets/images/htmlw3cresults.jpg)
+
+<br>
+<br>
+
++ There were no errors found on any page using the W3C HTML Validator.
++ (contact.html)
+
+![gallery.html](./assets/images/contactw3cresults.jpg)
+
+<br>
+<br>
+
++ There were no errors found on any page using the W3C HTML Validator.
+
++ (gallery.html)
+
+
+![contact.html](./assets/images/galleryw3cresults.jpg)
+
+<br>
+<br>
+
+There were no errors found on any page using the W3C HTML Validator.
++  CSS 
+<br>
+![css style](./assets/images/css.jpg)
+
+
+
+<br>
+<br>
+
+ #### LIGHTHOUSE
+
+
+ #### ACCESSIBILITY
+
+
+## SOLVED BUGS AND ERRORS
+
+* UNSOLVED BUGS AND ERRORS
+   * FUNCTIONALITY
+
+   ## TECHNOLOGIES USED
+
+   * PROGRAMS USED
+
+## DEPLOYMENT
+
+   * Development 
+
+## CREDITS 
+
+
+## CODE
+## ACKNOWLEDGEMENTS
