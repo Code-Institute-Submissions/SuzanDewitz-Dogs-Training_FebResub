@@ -1,9 +1,8 @@
 # Pitbull breeders gaiberg
-* This HTML code creates a website for a dog breeding and training service located in Gaiberg,
- Germany. The website includes several sections: "Dogs", "Breeds", "Training", and "Care". <br>
- Each section contains information about the services offered and provides images to accompany the text. 
- The website also includes a navigation bar at the top with links to the "Homepage", "Gallery", and "Contact" 
- <br>pages, as well as an opening hours section. The website uses CSS styles and Google Fonts to create a visually appealing design.
+* The HTML code  is a template for a website about a Pitbull breeder located in Gaiberg, Germany.<br> The website contains information about the services provided, including dog training, breed selection, and caring for the dogs. <br>The code includes the use of CSS stylesheets, font icons, and Google fonts for styling. <br>The website has four sections: Homepage, Contact, Gallery, <br>and the main content which contains information about the dogs, breeds, training, and care. <br>The main content is divided into three sections: Choose Your Perfect Companion, Train Your Furry Friend with Care, and We Ensure Your Pup's Well-Being. <br>Each section contains a header, a list of related topics, an image, and a description of the topic. The code also includes a navigation menu and a footer that displays the opening hours of the breeder.
+
+ <br>
+ <br>
 
  ![Home page](./assets/images/homepage.jpg)
 
@@ -13,15 +12,23 @@
    The website also mentions the benefits of owning a pet, such as improving physical and mental health, and encourages people to choose their perfect companion.
 
 # CONTENTS 
-##  UX/UI
+## UX/UI
 
   ### USERSTORIES
 
    * As user 
    * As owner
-## WIREFRAMES
-  * FEATURES
-  * DESIGN
+# WIREFRAMES
+  ## FEATURES
+  ## DESIGN
+
+
+
+  - HOME
+  - Navigation bar
+  - body
+  - Footer
+
 ## TESTING
 
   * DEVICES
@@ -111,13 +118,13 @@
 
 * The site consists of:
 
- * 3 main pages, HOME, CONTACT, GALLERY, 
-  * Each page will have the same body layout, HEADER (TITLE), NAVBAR, MAIN CONTENT (TEXT AND IMAGES) and FOOTER (SOCIAL MEDIA ICONS/LINKS, AND LOCATION)
+    * 3 main pages, HOME, CONTACT, GALLERY, 
+    * Each page will have the same body layout, HEADER (TITLE), NAVBAR, MAIN CONTENT (TEXT AND IMAGES) and FOOTER (SOCIAL MEDIA ICONS/LINKS, AND LOCATION)
   
-Navigation bar:
+
 
 ## DESIGN  
-### Home
+###  Home
 * The HTML (index.html) code  for a webpage that provides information about dog breeders in Gaiberg, Germany.
 * The <!DOCTYPE html> declaration is used to specify the HTML version used in the document.
 *  The <html> tag sets the language to English using the "lang" attribute.
@@ -129,25 +136,78 @@ Navigation bar:
 <br>
 <br>
 
- *  Navigation bar:
+### Navigation bar:
+* The navigation bar in this HTML code is defined within the "header" section and is denoted by the "nav" tag. 
+ * It is used to display the different pages or sections within the website, providing a way for users to quickly access the various parts of the site. 
+ * The navigation bar consists of an unordered list of items, each represented by an "li" tag. Each "li" tag contains a link, represented by the "a" tag, to a specific page or section. 
+ * The "active" class is added to the link for the currently viewed page, providing a visual indication to users about their current location within the site. 
+ * The links in the navigation bar are styled using CSS and the font used is "Roboto" from Google fonts.
+
++  Hover effect on navigating the menu
+1. When the mouse pointer is over the element, the following changes will occur:
+
+2. The bottom border of the element will change to a 2px solid line with the color #48D1CC.
+
+3. The background color of the element will change to #2F4F4F.
+
+4. The font size of the text inside the element will become 1.2em.
+
+5. A box shadow with a size of 0px 0px 10px and color rgb(127, 6, 6) will appear around the element.
+
+All the changes will happen gradually over a 0.2 second duration, with a smooth ease-in-out effect.
+
+ 
+
+
  ![Home page](./assets/images/navigationbar.jpg)
 
   <br>
 <br>
  
- *  body:
+ ###  body:
+
+ * The body section of the given HTML document contains the main content of the website, including headers, sections, images, and text. 
+  * It contains information about dog breeds, dog training, and dog care, organized into distinct sections with respective headers. 
+  * The sections contain lists of bullet points and accompanying text that provides further details on each topic. 
+  * The body section also includes images to accompany the text and provide visual interest.
+
  ![body page](./assets/images/body.jpg)
 
 <br>
 <br>
 
+* The opening page section, also known as the landing page, is the first page that a user sees when they visit a website. 
+* It serves as an introduction to the website and its purpose, and often includes elements such as a header, a navigation menu, a call-to-action, and visual elements like images or videos. 
+* The goal of an opening page is to provide a clear and engaging experience for the user, guiding them towards the information or action they are looking for. 
+* The design and content of an opening page should align with the overall branding and messaging of the website, while being optimized for user experience and usability.
 
  ![opening page](./assets/images/opening%20hours.jpg)
 
  <br>
 <br>
 
-  *  Footer
+###  Location 
++ The location container with an id of "location-container". Within the container, there is another div with the id of "location". This div contains a google map embedded within an iframe. 
++ The iframe has a width of 600 and a height of 450, and has its border set to 0. The iframe also has a source URL pointing to a google maps page, which will be displayed within the iframe.
++  The map is set to lazy load(technique in web development where resources such as images and videos are loaded only when they<br> become visible on the user's viewport. This helps to optimize the performance of a website by reducing the amount of data that needs to be loaded,<br> and by only loading the data that is actually needed. With lazy loading, a page loads faster and uses less bandwidth, which leads to a better user experience.), <br>and will not have any referrer information sent with it when navigating to a different page.
+
+<br>
+<br>
+
+ ![opening page](./assets/images/loaction.jpg)
+
+<br>
+<br>
+
+###  Footer
+  * The footer section is located at the bottom of a webpage and contains information such as the site's copyright notice, links to important pages, and contact information. 
+  * The footer is  designed to be smaller and less noticeable than other parts of the website, but still provides important information for users. 
+  * It  include elements such as social media icons, a sitemap, and a search bar. 
+  * The footer helps to give users an easy way to access important information and provides a clear way to get in touch with the site's creators.
+
+<br>
+<br>
+
  ![footer page](./assets/images/footer.jpg)
 
 <br>
@@ -192,13 +252,16 @@ Navigation bar:
 * Contact Form:
 
 
-  ![contact page](./assets/images/contactimage.jpg)
+  ![contact form](./assets/images/contactimage.jpg)
 
 
  * Contact Form:
 *  Form validation requests the user to input the correct information in the input fields, This avoids the user sending illegible text/email.
 
- ![contact page](./assets/images/contactima.jpg)
+ ![contact form](./assets/images/contactima.jpg)
 
 <br>
 <br>
+
+## TESTING 
+
