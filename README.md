@@ -302,6 +302,7 @@ All the changes will happen gradually over a 0.2 second duration, with a smooth 
 + There were no errors found on any page using the W3C HTML Validator.
 +  HTML (index.html)
 
+
  ![index.html](./assets/images/htmlw3cresults.jpg)
 
 <br>
@@ -309,6 +310,7 @@ All the changes will happen gradually over a 0.2 second duration, with a smooth 
 
 + There were no errors found on any page using the W3C HTML Validator.
 + (contact.html)
+
 
 ![gallery.html](./assets/images/contactw3cresults.jpg)
 
@@ -320,6 +322,7 @@ All the changes will happen gradually over a 0.2 second duration, with a smooth 
 + (gallery.html)
 
 
+
 ![contact.html](./assets/images/galleryw3cresults.jpg)
 
 <br>
@@ -328,6 +331,7 @@ All the changes will happen gradually over a 0.2 second duration, with a smooth 
 There were no errors found on any page using the W3C HTML Validator.
 +  CSS 
 <br>
+
 ![css style](./assets/images/css.jpg)
 
 
