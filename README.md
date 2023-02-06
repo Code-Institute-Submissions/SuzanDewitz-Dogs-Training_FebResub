@@ -16,59 +16,61 @@
 
 <br>
 
-   + [UX/UI](#ux/ui)
+[UX/UI](#ux/ui)
 
-<br>
+[USERSTORIES](#userstories)
 
-   + [USERSTORIES](#userstories)
+   * [AS USER](#userstories)
 
-<br>
+   * [AS OWNER](#owner) 
+  
 
+[WIREFRAMES](#wireframes)
 
-   * As user 
-   * As owner
-# WIREFRAMES
-  ## FEATURES
-  ## DESIGN
+  * [FEATURES](#features)
+  * [DESIGN](#design)
 
-
-
-  - HOME
-  - Navigation bar
-  - body
-  - Footer
-  - Color 
-
-## TESTING
-
-  * DEVICES
-  * VALIDATORS
-  * LIGHTHOUSE
-  * ACCESSIBILITY
-## SOLVED BUGS AND ERRORS
-
-   * UNSOLVED BUGS AND ERRORS
-   * FUNCTIONALITY
-## TECHNOLOGIES USED
-
-   * PROGRAMS USED
-
-## DEPLOYMENT
-
-   * Development 
-
-## CREDITS 
+     - [HOME](#home)
+     - [Navigation bar](#navigation-bar)
+     - [Body](#body)
+     - [Footer](#footer)
+     - [Color](#color)
 
 
-## CODE
-## ACKNOWLEDGEMENTS
+[TESTING](#testing)
+
+  - [DEVICES](#devices)
+  - [VALIDATORS](#validators)
+  - [LIGHTHOUSE](#lighthouse)
+  - [ACCESSIBILITY](#accessibility)
+
+[SOLVED BUGS AND ERRORS](#solved-bugs-and-errors)
+
+   - [UNSOLVED BUGS AND ERRORS](#unsolved-bugs-and-errors)
+   - [FUNCTIONALITY](#functionality)
+
+   
+[TECHNOLOGIES USED](#technologies-used)
+
+   - [PROGRAMS USED](#programs-used)
+
+[DEPLOYMENT](#deployment)
+
+  - [Development](#development)
+
+[CREDITS](#credits) 
+
+
+[CODE](#code)
+
+[ACKNOWLEDGEMENTS](#acknowledgements)
 
 
 
 
-
+ ## UX/UI
  ## USERSTORIES
-## UX/UI
+
 <br>
 
  * The website "Pitbull Breeders Gaiberg" is a platform for those who are interested in training and caring for dogs, <br>specifically the Pitbull breed. The site offers information on different breeds of dogs, including Labrador Retrievers, German Shepherds, Golden Retrievers, Bulldogs, and Poodles.
@@ -313,7 +315,7 @@ All the changes will happen gradually over a 0.2 second duration, with a smooth 
 +  HTML (index.html)
 
 
- ![index.html](./assets/images/htmlw3cresults.jpg)
+ ![html](./assets/images/htmlw3cresults.jpg)
 
 <br>
 <br>
@@ -322,7 +324,6 @@ All the changes will happen gradually over a 0.2 second duration, with a smooth 
 + (contact.html)
 
 
-![gallery.html](./assets/images/contactw3cresults.jpg)
 
 <br>
 <br>
@@ -333,7 +334,7 @@ All the changes will happen gradually over a 0.2 second duration, with a smooth 
 
 
 
-![contact.html](./assets/images/galleryw3cresults.jpg)
+![contact](./assets/images/galleryw3cresults.jpg)
 
 <br>
 <br>
@@ -342,7 +343,7 @@ There were no errors found on any page using the W3C HTML Validator.
 +  CSS 
 <br>
 
-![css style](./assets/images/css.jpg)
+![css](./assets/images/css.jpg)
 
 
 
