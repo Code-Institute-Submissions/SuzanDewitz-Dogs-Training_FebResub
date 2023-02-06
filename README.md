@@ -345,6 +345,7 @@ All the changes will happen gradually over a 0.2 second duration, with a smooth 
 ## TESTING 
 
 ### Manual Testing
+ #### ACCESSIBILITY
 #### DEVICES
 + I have tested in Chrome, Firefox, and Edge on a Windows computer to test the desktop and mobile versions of the website. 
  + I have also used Chrome and Firefox on an Android device, and Safari on an iOS device to test the mobile version. 
@@ -424,22 +425,21 @@ There were no errors found on any page using the W3C CSS Validator.
 <br>
 <br>
 
- #### ACCESSIBILITY
-
-
 ## SOLVED BUGS AND ERRORS
 
-# BUGS 
-+ contact.html  an extra "</div>" end tag in your code, which is causing an error. A "stray end tag" error occurs when an HTML end tag does not have a matching start tag.
-I resolve this issue, by removing the extra "</div>".
+#### Bug Fixes
+  * The following bugs were resolved:
 
-+ index.html Another error message is indicating that the "for" attribute of the "label" element is set to "map", which is the ID of the "iframe" element. I ensures that the label is properly associated with the form control (in this case, the map). 
+   *  A stray end tag error occurred due to an extra </div> end tag in the code. The issue was resolved by removing the extra tag.
 
-+ index.html Another error message is indicating that the "section" element is lacking a heading. i improve accessibility and make the content more structured, it's also recommended to add an appropriate heading (e.g. <h2>, <h3>, etc.) to the section. If the section doesn't need a heading, consider using a <div> element instead of a <section> element.in this case i add h2 element the error was solve 
+   *  An error message indicated that the "for" attribute of the "label" element was set to "map", which was the ID of the "iframe" element. The issue was resolved by ensuring that the label was properly associated with the form control (in this case, the map).
 
-
+   *  An error message indicated that the "section" element was lacking a heading. To improve accessibility and make the content more structured,
+ an appropriate heading was added to the section. If the section didn't need a heading, a <div> element was used instead of a <section> element, solving the issue.
 <br>
 <br>
+
+
 
  ![css](./assets/images/html%20error.jpg)
 
@@ -521,7 +521,7 @@ a Green tick to the left of the link to the live site
 ## CREDITS 
 
 * Media
-    * The photos used in this site were obtained from  [Free](https://www.pexels.com/)
+    * The photos used in this site were obtained from Free pexels  [Free pexels](https://www.pexels.com/)
     * The Location map was obtained from Google Maps.
 
 <br>
