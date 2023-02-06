@@ -11,10 +11,10 @@
   The website highlights the various breeds of dogs that they offer and the services they provide, such as training and caring for the dogs.<br>
    The website also mentions the benefits of owning a pet, such as improving physical and mental health, and encourages people to choose their perfect companion.
 
-# CONTENTS 
-## UX/UI
 
-  ### USERSTORIES
+[CONTENTS](#contents)
+[UX/UI](#ux/ui)
+[USERSTORIES](#userstories)
 
    * As user 
    * As owner
