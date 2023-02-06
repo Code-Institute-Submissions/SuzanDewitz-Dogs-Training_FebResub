@@ -55,7 +55,7 @@
      - [opening](#opening)
      - [Location](#Location)
      - [Footer](#footer)
-     - [Color](#color)
+    
      - [Gallery](#gallery)
      
      - [contact](#ccontac)
@@ -80,8 +80,6 @@
 [TECHNOLOGIES USED](#technologies-used)
 
 [DEPLOYMENT](#deployment)
-
-  - [Development](#development)
 
 [CREDITS](#credits) 
 
