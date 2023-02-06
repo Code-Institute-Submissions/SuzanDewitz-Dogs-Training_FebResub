@@ -16,11 +16,11 @@
 
 <br>
 
-  +   [UX/UI](#ux/ui)
+   + [UX/UI](#ux/ui)
 
 <br>
 
-  +   [USERSTORIES](#userstories)
+   + [USERSTORIES](#userstories)
 
 <br>
 
@@ -67,7 +67,7 @@
 
 
 
- [UX/UI](#ux/ui)
+ ## USERSTORIES
 ## UX/UI
 <br>
 
