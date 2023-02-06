@@ -12,15 +12,15 @@
    The website also mentions the benefits of owning a pet, such as improving physical and mental health, and encourages people to choose their perfect companion.
 
 
-[CONTENTS](#contents)
+# CONTENTS 
 
 <br>
 
-+   [UX/UI](#ux/ui)
+  +   [UX/UI](#ux/ui)
 
 <br>
 
-+   [USERSTORIES](#userstories)
+  +   [USERSTORIES](#userstories)
 
 <br>
 
@@ -67,8 +67,8 @@
 
 
 
- # ux/ui
- 
+ [UX/UI](#ux/ui)
+## UX/UI
 <br>
 
  * The website "Pitbull Breeders Gaiberg" is a platform for those who are interested in training and caring for dogs, <br>specifically the Pitbull breed. The site offers information on different breeds of dogs, including Labrador Retrievers, German Shepherds, Golden Retrievers, Bulldogs, and Poodles.
