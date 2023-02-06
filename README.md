@@ -13,9 +13,16 @@
 
 
 [CONTENTS](#contents)
+
+<br>
+
 [UX/UI](#ux/ui)
+
+<br>
+
 [USERSTORIES](#userstories)
 
+<br>
    * As user 
    * As owner
 # WIREFRAMES
