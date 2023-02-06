@@ -16,13 +16,15 @@
 
 <br>
 
-[UX/UI](#ux/ui)
++   [UX/UI](#ux/ui)
 
 <br>
 
-[USERSTORIES](#userstories)
++   [USERSTORIES](#userstories)
 
 <br>
+
+
    * As user 
    * As owner
 # WIREFRAMES
@@ -65,7 +67,8 @@
 
 
 
- # UX/UI 
+ # ux/ui
+ 
 <br>
 
  * The website "Pitbull Breeders Gaiberg" is a platform for those who are interested in training and caring for dogs, <br>specifically the Pitbull breed. The site offers information on different breeds of dogs, including Labrador Retrievers, German Shepherds, Golden Retrievers, Bulldogs, and Poodles.
