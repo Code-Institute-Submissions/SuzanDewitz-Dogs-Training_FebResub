@@ -71,8 +71,8 @@
   - [LIGHTHOUSE](#lighthouse)
   - [ACCESSIBILITY](#accessibility)
 
-[SOLVED BUGS AND ERRORS](#solved-bugs-and-errors)
 
+[UNSOLVED BUGS AND ERRORS](#solved-bugs-and-errors)
    
    
 
