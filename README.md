@@ -57,11 +57,11 @@
      - [Footer](#footer)
      - [Color](#color)
      - [Gallery](#gallery)
-     - [Color](#color)
+     
      - [contact](#ccontac)
        - ContactFORM
        - ContactValidation
-
+     - [Color](#color)
 
 
 [TESTING](#testing)
@@ -74,12 +74,10 @@
 [SOLVED BUGS AND ERRORS](#solved-bugs-and-errors)
 
    - [UNSOLVED BUGS AND ERRORS](#unsolved-bugs-and-errors)
-   - [FUNCTIONALITY](#functionality)
+   
 
    
 [TECHNOLOGIES USED](#technologies-used)
-
-   - [PROGRAMS USED](#programs-used)
 
 [DEPLOYMENT](#deployment)
 
@@ -325,8 +323,8 @@ All the changes will happen gradually over a 0.2 second duration, with a smooth 
 <br>
 <br>
 
-
-### Color Scheme
+### Color
+#### Color Scheme
 <br>
 
 * The colors used in your dog website are carefully selected to create a visually appealing and cohesive design. 
@@ -425,7 +423,7 @@ There were no errors found on any page using the W3C CSS Validator.
 <br>
 <br>
 
-## SOLVED BUGS AND ERRORS
+## UNSOLVED BUGS AND ERRORS
 
 #### Bug Fixes
   * The following bugs were resolved:
@@ -454,6 +452,7 @@ There were no errors found on any page using the W3C CSS Validator.
 * There are no unfixed bugs.
 
    ## TECHNOLOGIES USED
+   #### PROGRAMS USED
    +  HTML
    +  CSS 
 * The languages, frameworks, libraries, and other tools used during this project:
@@ -529,7 +528,7 @@ a Green tick to the left of the link to the live site
 
 ## CODE
  * Responsive Design course on Youtube for responsive code in CSS
- * Everybody on slack for pointing me to W3Schools for more in-depth guides to the uses of HTML and CSS
+ * W3Schools for more in-depth guides to the uses of HTML and CSS
 
 ## ACKNOWLEDGEMENTS
 * Code institute for the Tutors on the course.
